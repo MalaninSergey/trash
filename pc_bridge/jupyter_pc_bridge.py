@@ -141,35 +141,60 @@ def parse_upstream(url: str) -> tuple[str, str, int]:
     return parts.scheme, parts.hostname, port
 
 
+def _upstream_get(scheme: str, host: str, port: int, insecure: bool):
+    if scheme == "https":
+        ctx = ssl.create_default_context()
+        if insecure:
+            ctx.check_hostname = False
+            ctx.verify_mode = ssl.CERT_NONE
+        conn = HTTPSConnection(host, port, timeout=15, context=ctx)
+    else:
+        conn = HTTPConnection(host, port, timeout=15)
+    conn.request("GET", "/hub/api/", headers={"Host": host})
+    r = conn.getresponse()
+    body = r.read()
+    status = r.status
+    conn.close()
+    return status, body
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="PC bridge to JupyterHub for Cursor cloud agent")
     parser.add_argument("--bind", default=DEFAULT_BIND)
     parser.add_argument("--port", type=int, default=DEFAULT_PORT)
     parser.add_argument("--upstream", default=DEFAULT_UPSTREAM)
-    parser.add_argument("--insecure", action="store_true", help="Skip TLS verify to JupyterHub")
+    parser.add_argument(
+        "--insecure",
+        action="store_true",
+        help="Skip TLS verify to JupyterHub (corp self-signed MITM/proxy certs)",
+    )
     args = parser.parse_args()
 
     scheme, host, port = parse_upstream(args.upstream)
     BridgeHandler.upstream_scheme = scheme
     BridgeHandler.upstream_host = host
     BridgeHandler.upstream_port = port
-    BridgeHandler.verify_ssl = not args.insecure
 
+    insecure = args.insecure
     # Quick connectivity check before accepting cloud traffic
     try:
-        if scheme == "https":
-            ctx = ssl.create_default_context()
-            if args.insecure:
-                ctx.check_hostname = False
-                ctx.verify_mode = ssl.CERT_NONE
-            conn = HTTPSConnection(host, port, timeout=15, context=ctx)
-        else:
-            conn = HTTPConnection(host, port, timeout=15)
-        conn.request("GET", "/hub/api/", headers={"Host": host})
-        r = conn.getresponse()
-        _ = r.read()
-        print(f"Upstream check: {scheme}://{host}:{port}/hub/api/ -> HTTP {r.status}")
-        conn.close()
+        status, _ = _upstream_get(scheme, host, port, insecure=insecure)
+        print(f"Upstream check: {scheme}://{host}:{port}/hub/api/ -> HTTP {status}")
+    except ssl.SSLCertVerificationError as exc:
+        if insecure:
+            print("ERROR: TLS verify already disabled, but SSL still failed.")
+            print(f"  detail: {exc}")
+            raise SystemExit(1)
+        print("Corp/self-signed TLS cert detected; retrying with --insecure")
+        try:
+            status, _ = _upstream_get(scheme, host, port, insecure=True)
+            insecure = True
+            print(f"Upstream check (insecure): {scheme}://{host}:{port}/hub/api/ -> HTTP {status}")
+        except Exception as exc2:
+            print("ERROR: this PC cannot reach JupyterHub yet.")
+            print(f"  target: {args.upstream}")
+            print(f"  detail: {exc2}")
+            raise SystemExit(1)
     except Exception as exc:
         print("ERROR: this PC cannot reach JupyterHub yet.")
         print(f"  target: {args.upstream}")
@@ -179,12 +204,17 @@ def main() -> None:
         print("You need a system/corporate VPN (or split tunnel) that Python can use.")
         raise SystemExit(1)
 
+    BridgeHandler.verify_ssl = not insecure
+    if insecure:
+        print("TLS verify: OFF (corporate certificate chain)")
+
     server = ThreadingHTTPServer((args.bind, args.port), BridgeHandler)
     print(f"Bridge listening on http://{args.bind}:{args.port}")
     print(f"Forwarding to {args.upstream}")
     print()
     print("Next step — in another terminal on THIS PC run:")
     print(f"  cloudflared tunnel --url http://{args.bind}:{args.port}")
+    print("  # or: ./start_tunnel_mac.sh")
     print()
     print("Then paste the https://*.trycloudflare.com URL to the Cursor cloud agent.")
     print("Keep BOTH windows open while working. Ctrl+C to stop.")

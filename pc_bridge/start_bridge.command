@@ -12,4 +12,10 @@ else
   exit 1
 fi
 
+# Default --insecure: Samokat VPN often uses a corp TLS intercept / self-signed chain.
+# Pass --no-insecure only if you intentionally want strict verify (not implemented as flag;
+# omit by running: python3 jupyter_pc_bridge.py ).
+if [[ "$#" -eq 0 ]]; then
+  set -- --insecure
+fi
 exec "$PY" jupyter_pc_bridge.py "$@"

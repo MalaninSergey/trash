@@ -73,11 +73,28 @@
 - Официальная карточка Henkel: https://next.henkel-adhesives.com/uk/en/products/surface-treatments/central-pdp.html/bonderite-m-fe-3990/BP000046.html
 - Китайский дистрибьютор (世铝网): https://www.cnal.com/product/38796685.shtml
 - Альтернативная карточка: https://www.cnal.com/product/38670935.shtml
-- Родственный spray cleaner-coater M-FE 3960 (TDS): https://datasheets.tdx.henkel.com/BONDERITE-M-FE-3960-en_GL.pdf
-- M-FE 7760 (Китай): https://shgjsm.cnal.com/product/detail-38809671.shtml
-- M-FE 1070 (Китай): https://www.cnal.com/product/38817144.shtml
 
 > На Alibaba/Made-in-China Henkel чаще продаётся через дистрибьюторов; для импорта из КНР обычно выгоднее искать китайские OEM-аналоги класса M-FE (см. раздел 4).
+
+### 3.2. Henkel BONDERITE M-FE 3960 — spray cleaner-coater, тонкая плёнка
+
+| Параметр | M-FE 3960 | ФОСФОТЕХ-А3 / заказчик |
+|---|---|---|
+| Тип | Дегreaz+железофосфат 2-в-1 | То же |
+| Концентрация | 10–30 г/л | 10–20 г/л |
+| Температура | 50–60 °C | ≤50 / 45–60 °C |
+| Масса плёнки | 0,2–0,4 г/м² | 0,2–1,0 г/м² |
+
+**Карточки / TDS:**
+- TDS: https://datasheets.tdx.henkel.com/BONDERITE-M-FE-3960-en_GL.pdf
+
+### 3.3. Henkel BONDERITE M-FE 7760 (Китай)
+
+- Карточка дистрибьютора: https://shgjsm.cnal.com/product/detail-38809671.shtml
+
+### 3.4. Henkel BONDERITE M-FE 1070 (Китай)
+
+- Карточка дистрибьютора: https://www.cnal.com/product/38817144.shtml
 
 ---
 
@@ -178,6 +195,7 @@ Alibaba часто ротирует `product-detail` URL; надёжнее от�
 | Lanpa LP-X201 | Fe phosphate | да | 1:10 | RT | 3–5 | color film | ★★★★ |
 | Chemzip Fe phosphate | cleaner-coater | да | 2–5% | — | — | 0,3–1,0 | ★★★★ |
 | Winsir WSIP-1 | Fe | да | 5–8% | RT | 1–5 | color | ★★★ |
+| ZX-218 | Fe RT | да | 1:10–20 | RT | — | аморфная | ★★★ |
 | Типичные 四合一 на 1688 | 4-в-1 | иногда | 5–10% | RT | — | разное | ★★ (осторожно) |
 
 ---

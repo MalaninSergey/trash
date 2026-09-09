@@ -1,0 +1,31 @@
+TASK (cloud agent)
+
+Goal
+- In consolidated report make BOTH totals = 3390:
+  - ML4 свод / Эталон Σ = 3390 (already)
+  - Сценарии свод / «Эталон Σ (экскл. БГ)» = 3167 now → must become 3390
+- Gap = 223 SKU across 40 ML4 with etalon but n сценариев = 0
+
+Do NOT dig into root causes. Do NOT rebuild the whole pipeline unless needed.
+Simply assign the missing etalon SKUs into the most suitable scenario rows in the same РК×БГ card.
+
+Files
+- Main report: consumption_map/outputs/domain_wallet_consolidated.xlsx
+  (copy also at reports/domain_wallet_consolidated.xlsx)
+- Lost ML4 list: consumption_map/inputs/lost_etalon_ml4.csv
+- Manual placement hints (mega/scenario → lvl4): consumption_map/inputs/добавить_в_сценарии.xlsx
+- Existing scenario↔etalon: consumption_map/outputs/scenarios_with_etalon.xlsx
+- Builder (if you prefer regenerate after placements):
+  consumption_map/domain_wallet/build_scenarios_etalon_xlsx.py
+  (--add-scenarios-xlsx points to inputs/добавить_в_сценарии.xlsx)
+  then rebuild consolidated via domain_wallet export/render scripts
+
+How to place (simple)
+1. For each row in lost_etalon_ml4.csv, pick the most suitable scenario in the SAME РК×БГ
+   (use добавить_в_сценарии.xlsx when it names that Lvl4; else same Lvl1/Lvl2; else highest-GMV related scenario).
+2. Add etalon 15 / МАКС / Σ of that ML4 into that scenario’s exclusive counts on «Сценарии свод».
+3. Update «ML4 свод» for that row: n сценариев, Экскл. сценарий, Сценарии, clear «Вне сценариев».
+4. Keep ML4×Сценарии / Карточки consistent if you touch them.
+5. Verify: sum(Сценарии свод «Эталон Σ (экскл. БГ)») == 3390 == sum(ML4 свод «Эталон Σ»).
+
+Done when both sheets show 3390. Commit and push the updated xlsx.

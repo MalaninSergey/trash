@@ -1,0 +1,1450 @@
+[
+  {
+    "mega": "Готовлю дома",
+    "scenario_gmv": 39708011438.63092,
+    "scenario_gmv_share": 0.3333522800788162,
+    "mccs": [
+      {
+        "mcc": "Продуктовые магазины",
+        "role": "primary",
+        "retailers": [
+          {
+            "merchant": "Вкусвилл",
+            "share": 0.2183708358326522,
+            "smkt_gmv": 26946390151.23,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Перекресток",
+            "share": 0.2032865534889842,
+            "smkt_gmv": 25085029152.02,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Самокат",
+            "share": 0.13119523240805483,
+            "smkt_gmv": 16189148633.19,
+            "is_samokat": true
+          },
+          {
+            "merchant": "Магнит",
+            "share": 0.09248916681658036,
+            "smkt_gmv": 11412921346.84,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Красное белое",
+            "share": 0.07621579517258395,
+            "smkt_gmv": 9404829837.17,
+            "is_samokat": false
+          },
+          {
+            "merchant": "YandexMarket",
+            "share": 0.06545854980052415,
+            "smkt_gmv": 8077413886.03,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Азбука",
+            "share": 0.04718636646348005,
+            "smkt_gmv": 5822674239.88,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Купер",
+            "share": 0.045485603408033766,
+            "smkt_gmv": 5612804525.95,
+            "is_samokat": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "mega": "Гости и праздник",
+    "scenario_gmv": 28033639244.98258,
+    "scenario_gmv_share": 0.23534488942275097,
+    "mccs": [
+      {
+        "mcc": "Продуктовые магазины",
+        "role": "primary",
+        "retailers": [
+          {
+            "merchant": "Вкусвилл",
+            "share": 0.2183708358326522,
+            "smkt_gmv": 26946390151.23,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Перекресток",
+            "share": 0.2032865534889842,
+            "smkt_gmv": 25085029152.02,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Самокат",
+            "share": 0.13119523240805483,
+            "smkt_gmv": 16189148633.19,
+            "is_samokat": true
+          },
+          {
+            "merchant": "Магнит",
+            "share": 0.09248916681658036,
+            "smkt_gmv": 11412921346.84,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Красное белое",
+            "share": 0.07621579517258395,
+            "smkt_gmv": 9404829837.17,
+            "is_samokat": false
+          },
+          {
+            "merchant": "YandexMarket",
+            "share": 0.06545854980052415,
+            "smkt_gmv": 8077413886.03,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Азбука",
+            "share": 0.04718636646348005,
+            "smkt_gmv": 5822674239.88,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Купер",
+            "share": 0.045485603408033766,
+            "smkt_gmv": 5612804525.95,
+            "is_samokat": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "mega": "Дети",
+    "scenario_gmv": 10758710573.73856,
+    "scenario_gmv_share": 0.09032033009274949,
+    "mccs": [
+      {
+        "mcc": "Игрушки",
+        "role": "primary",
+        "retailers": [
+          {
+            "merchant": "Детский мир",
+            "share": 0.9064000547122183,
+            "smkt_gmv": 3516242985.99,
+            "is_samokat": false
+          },
+          {
+            "merchant": "ЦДМ игрушки",
+            "share": 0.01843557806014945,
+            "smkt_gmv": 71518058.4,
+            "is_samokat": false
+          },
+          {
+            "merchant": "BoanBaby",
+            "share": 0.014731438887150733,
+            "smkt_gmv": 57148406.370000005,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Тойс про",
+            "share": 0.010168516357977123,
+            "smkt_gmv": 39447233.19,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Лапси",
+            "share": 0.00879220762310964,
+            "smkt_gmv": 34108050.0,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Лавка Чудес",
+            "share": 0.006588501161694469,
+            "smkt_gmv": 25559101.5,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Hobby Games",
+            "share": 0.006534976407827801,
+            "smkt_gmv": 25351460.25,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Aviapark Khoun",
+            "share": 0.005932912378026189,
+            "smkt_gmv": 23015843.2,
+            "is_samokat": false
+          }
+        ]
+      },
+      {
+        "mcc": "Одежда детская",
+        "role": "primary",
+        "retailers": [
+          {
+            "merchant": "Детский Мир",
+            "share": 0.6027467045348771,
+            "smkt_gmv": 1269069784.06,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Детский мир",
+            "share": 0.08123263431173891,
+            "smkt_gmv": 171033505.29999998,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Kenguru",
+            "share": 0.0670585737719751,
+            "smkt_gmv": 141190336.0,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Гулливер",
+            "share": 0.04631036274105539,
+            "smkt_gmv": 97505439.02000001,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Kotofej",
+            "share": 0.04196502549076533,
+            "smkt_gmv": 88356428.06,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Acoola",
+            "share": 0.024108530878077336,
+            "smkt_gmv": 50759975.7,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Торговый дом",
+            "share": 0.022058153157321795,
+            "smkt_gmv": 46442951.0,
+            "is_samokat": false
+          },
+          {
+            "merchant": "ООО Квест",
+            "share": 0.017797697335374608,
+            "smkt_gmv": 37472656.0,
+            "is_samokat": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "mega": "Дача",
+    "scenario_gmv": 8736187778.999245,
+    "scenario_gmv_share": 0.07334107173377244,
+    "mccs": [
+      {
+        "mcc": "Продуктовые магазины",
+        "role": "secondary",
+        "retailers": [
+          {
+            "merchant": "Вкусвилл",
+            "share": 0.2183708358326522,
+            "smkt_gmv": 26946390151.23,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Перекресток",
+            "share": 0.2032865534889842,
+            "smkt_gmv": 25085029152.02,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Самокат",
+            "share": 0.13119523240805483,
+            "smkt_gmv": 16189148633.19,
+            "is_samokat": true
+          },
+          {
+            "merchant": "Магнит",
+            "share": 0.09248916681658036,
+            "smkt_gmv": 11412921346.84,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Красное белое",
+            "share": 0.07621579517258395,
+            "smkt_gmv": 9404829837.17,
+            "is_samokat": false
+          },
+          {
+            "merchant": "YandexMarket",
+            "share": 0.06545854980052415,
+            "smkt_gmv": 8077413886.03,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Азбука",
+            "share": 0.04718636646348005,
+            "smkt_gmv": 5822674239.88,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Купер",
+            "share": 0.045485603408033766,
+            "smkt_gmv": 5612804525.95,
+            "is_samokat": false
+          }
+        ]
+      },
+      {
+        "mcc": "Товары для дома",
+        "role": "secondary",
+        "retailers": [
+          {
+            "merchant": "ЛеманаПро",
+            "share": 0.5636357286544543,
+            "smkt_gmv": 7270579176.16,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Hoff",
+            "share": 0.14073339501115842,
+            "smkt_gmv": 1815380464.9699998,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Petrovich",
+            "share": 0.09457918286299011,
+            "smkt_gmv": 1220017473.1,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Ле Монлид",
+            "share": 0.07350986996906798,
+            "smkt_gmv": 948235363.14,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Все инструменты",
+            "share": 0.045992430660188995,
+            "smkt_gmv": 593276103.02,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Kuchenland Home",
+            "share": 0.03313756321731359,
+            "smkt_gmv": 427455650.57,
+            "is_samokat": false
+          },
+          {
+            "merchant": "169",
+            "share": 0.02796516533462947,
+            "smkt_gmv": 360734670.29,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Aviapark Khoun",
+            "share": 0.004484352319376985,
+            "smkt_gmv": 57845585.25,
+            "is_samokat": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "mega": "Дом и быт",
+    "scenario_gmv": 7609727108.714642,
+    "scenario_gmv_share": 0.06388433443432759,
+    "mccs": [
+      {
+        "mcc": "Товары для дома",
+        "role": "primary",
+        "retailers": [
+          {
+            "merchant": "ЛеманаПро",
+            "share": 0.5636357286544543,
+            "smkt_gmv": 7270579176.16,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Hoff",
+            "share": 0.14073339501115842,
+            "smkt_gmv": 1815380464.9699998,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Petrovich",
+            "share": 0.09457918286299011,
+            "smkt_gmv": 1220017473.1,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Ле Монлид",
+            "share": 0.07350986996906798,
+            "smkt_gmv": 948235363.14,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Все инструменты",
+            "share": 0.045992430660188995,
+            "smkt_gmv": 593276103.02,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Kuchenland Home",
+            "share": 0.03313756321731359,
+            "smkt_gmv": 427455650.57,
+            "is_samokat": false
+          },
+          {
+            "merchant": "169",
+            "share": 0.02796516533462947,
+            "smkt_gmv": 360734670.29,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Aviapark Khoun",
+            "share": 0.004484352319376985,
+            "smkt_gmv": 57845585.25,
+            "is_samokat": false
+          }
+        ]
+      },
+      {
+        "mcc": "Мебель",
+        "role": "secondary",
+        "retailers": [
+          {
+            "merchant": "Аскона",
+            "share": 0.20159906190353696,
+            "smkt_gmv": 824355352.86,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Стильные Кухни",
+            "share": 0.1840373775404448,
+            "smkt_gmv": 752544163.0,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Диван.ру",
+            "share": 0.12317165114446363,
+            "smkt_gmv": 503659139.0,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Орматек",
+            "share": 0.09703907229755274,
+            "smkt_gmv": 396800847.83000004,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Hoff",
+            "share": 0.06255756663251397,
+            "smkt_gmv": 255803099.62,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Мария хоум",
+            "share": 0.049416358696965736,
+            "smkt_gmv": 202067606.0,
+            "is_samokat": false
+          },
+          {
+            "merchant": "MOD Dostavka",
+            "share": 0.03387799387466564,
+            "smkt_gmv": 138529938.24,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Aviapark Khoun",
+            "share": 0.026186989656102586,
+            "smkt_gmv": 107080781.5,
+            "is_samokat": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "mega": "Пикник и отдых",
+    "scenario_gmv": 7511758890.986735,
+    "scenario_gmv_share": 0.06306188255190763,
+    "mccs": [
+      {
+        "mcc": "Продуктовые магазины",
+        "role": "primary",
+        "retailers": [
+          {
+            "merchant": "Вкусвилл",
+            "share": 0.2183708358326522,
+            "smkt_gmv": 26946390151.23,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Перекресток",
+            "share": 0.2032865534889842,
+            "smkt_gmv": 25085029152.02,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Самокат",
+            "share": 0.13119523240805483,
+            "smkt_gmv": 16189148633.19,
+            "is_samokat": true
+          },
+          {
+            "merchant": "Магнит",
+            "share": 0.09248916681658036,
+            "smkt_gmv": 11412921346.84,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Красное белое",
+            "share": 0.07621579517258395,
+            "smkt_gmv": 9404829837.17,
+            "is_samokat": false
+          },
+          {
+            "merchant": "YandexMarket",
+            "share": 0.06545854980052415,
+            "smkt_gmv": 8077413886.03,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Азбука",
+            "share": 0.04718636646348005,
+            "smkt_gmv": 5822674239.88,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Купер",
+            "share": 0.045485603408033766,
+            "smkt_gmv": 5612804525.95,
+            "is_samokat": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "mega": "Эмоции",
+    "scenario_gmv": 4534537027.308276,
+    "scenario_gmv_share": 0.03806784078047372,
+    "mccs": [
+      {
+        "mcc": "Продуктовые магазины",
+        "role": "secondary",
+        "retailers": [
+          {
+            "merchant": "Вкусвилл",
+            "share": 0.2183708358326522,
+            "smkt_gmv": 26946390151.23,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Перекресток",
+            "share": 0.2032865534889842,
+            "smkt_gmv": 25085029152.02,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Самокат",
+            "share": 0.13119523240805483,
+            "smkt_gmv": 16189148633.19,
+            "is_samokat": true
+          },
+          {
+            "merchant": "Магнит",
+            "share": 0.09248916681658036,
+            "smkt_gmv": 11412921346.84,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Красное белое",
+            "share": 0.07621579517258395,
+            "smkt_gmv": 9404829837.17,
+            "is_samokat": false
+          },
+          {
+            "merchant": "YandexMarket",
+            "share": 0.06545854980052415,
+            "smkt_gmv": 8077413886.03,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Азбука",
+            "share": 0.04718636646348005,
+            "smkt_gmv": 5822674239.88,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Купер",
+            "share": 0.045485603408033766,
+            "smkt_gmv": 5612804525.95,
+            "is_samokat": false
+          }
+        ]
+      },
+      {
+        "mcc": "Косметика",
+        "role": "secondary",
+        "retailers": [
+          {
+            "merchant": "Золотое Яблоко",
+            "share": 0.521969079082794,
+            "smkt_gmv": 4337949804.63,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Летуаль",
+            "share": 0.15857271870135758,
+            "smkt_gmv": 1317856788.22,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Подружка",
+            "share": 0.1146196585648602,
+            "smkt_gmv": 952574291.09,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Рив Гош",
+            "share": 0.07822998115362188,
+            "smkt_gmv": 650149108.56,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Алькор и КО",
+            "share": 0.03383887061365782,
+            "smkt_gmv": 281226088.0,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Salaris",
+            "share": 0.032296636412889726,
+            "smkt_gmv": 268408979.06,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Элиз",
+            "share": 0.013072837738761094,
+            "smkt_gmv": 108644968.03999999,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Doterra",
+            "share": 0.01232387553538543,
+            "smkt_gmv": 102420537.18,
+            "is_samokat": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "mega": "Работа и учеба",
+    "scenario_gmv": 2785591501.519235,
+    "scenario_gmv_share": 0.023385287874079105,
+    "mccs": [
+      {
+        "mcc": "Канцтовары",
+        "role": "primary",
+        "retailers": [
+          {
+            "merchant": "Комус",
+            "share": 0.382209307028689,
+            "smkt_gmv": 70574308.09,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Две Ручки",
+            "share": 0.09421531802241971,
+            "smkt_gmv": 17396700.6,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Купи Слона",
+            "share": 0.08367436885888395,
+            "smkt_gmv": 15450332.0,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Бибигон",
+            "share": 0.06442944853425255,
+            "smkt_gmv": 11896789.71,
+            "is_samokat": false
+          },
+          {
+            "merchant": "КанцПарк",
+            "share": 0.0617482299975038,
+            "smkt_gmv": 11401707.2,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Канцтовары",
+            "share": 0.05813900639700763,
+            "smkt_gmv": 10735270.11,
+            "is_samokat": false
+          },
+          {
+            "merchant": "ТДТ.РУ",
+            "share": 0.05198039275096083,
+            "smkt_gmv": 9598092.42,
+            "is_samokat": false
+          },
+          {
+            "merchant": "РуссКартон",
+            "share": 0.04689229577874002,
+            "smkt_gmv": 8658583.84,
+            "is_samokat": false
+          }
+        ]
+      },
+      {
+        "mcc": "Книжные магазины",
+        "role": "primary",
+        "retailers": [
+          {
+            "merchant": "Читай Город",
+            "share": 0.5762111830918382,
+            "smkt_gmv": 653174859.1600001,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Литрес",
+            "share": 0.18411781922744988,
+            "smkt_gmv": 208710164.21,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Дом книги",
+            "share": 0.061403882465820715,
+            "smkt_gmv": 69605508.28999999,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Республика",
+            "share": 0.02589615993304451,
+            "smkt_gmv": 29355071.740000002,
+            "is_samokat": false
+          },
+          {
+            "merchant": "МД Книги",
+            "share": 0.02429699349108153,
+            "smkt_gmv": 27542307.0,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Литмаркет",
+            "share": 0.022134988766620012,
+            "smkt_gmv": 25091526.5,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Литнет",
+            "share": 0.017570502112555234,
+            "smkt_gmv": 19917368.11,
+            "is_samokat": false
+          },
+          {
+            "merchant": "ООО ТДК Москва",
+            "share": 0.016814882056600058,
+            "smkt_gmv": 19060821.0,
+            "is_samokat": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "mega": "Авто",
+    "scenario_gmv": 2025692201.661001,
+    "scenario_gmv_share": 0.01700586581136671,
+    "mccs": [
+      {
+        "mcc": "Автотовары",
+        "role": "primary",
+        "retailers": [
+          {
+            "merchant": "Автозапчасти",
+            "share": 0.26901423855629164,
+            "smkt_gmv": 525229952.45000005,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Колесо.ру",
+            "share": 0.1516898538149214,
+            "smkt_gmv": 296162965.70000005,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Авторусь",
+            "share": 0.14168812651958043,
+            "smkt_gmv": 276635349.69,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Экзист",
+            "share": 0.06659583218543151,
+            "smkt_gmv": 130023325.00999999,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Росско",
+            "share": 0.06394936598843823,
+            "smkt_gmv": 124856299.94000001,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Би-би",
+            "share": 0.0481168446222628,
+            "smkt_gmv": 93944499.55,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Автодок",
+            "share": 0.04683468126078499,
+            "smkt_gmv": 91441172.57,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Шиномонтаж",
+            "share": 0.03810503829369183,
+            "smkt_gmv": 74397204.99,
+            "is_samokat": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "mega": "Здоровье",
+    "scenario_gmv": 1907074346.595875,
+    "scenario_gmv_share": 0.016010058390863415,
+    "mccs": [
+      {
+        "mcc": "Аптеки",
+        "role": "primary",
+        "retailers": [
+          {
+            "merchant": "Горздрав",
+            "share": 0.37070868754404446,
+            "smkt_gmv": 4567545906.82,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Аптечное учреждение",
+            "share": 0.25939240856659906,
+            "smkt_gmv": 3196004770.91,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Аптека здоров.ру",
+            "share": 0.10636915871431862,
+            "smkt_gmv": 1310587077.73,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Аптека",
+            "share": 0.055213028680925515,
+            "smkt_gmv": 680286304.66,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Еаптека",
+            "share": 0.05393150187675328,
+            "smkt_gmv": 664496460.22,
+            "is_samokat": false
+          },
+          {
+            "merchant": "ООО \"АПТЕЧНАЯ СЕТЬ ОЗ\"",
+            "share": 0.025528400220190227,
+            "smkt_gmv": 314538460.65999997,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Апрель",
+            "share": 0.02275983960874994,
+            "smkt_gmv": 280426695.51,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Аптечный Пункт",
+            "share": 0.018129710146901904,
+            "smkt_gmv": 223378318.76,
+            "is_samokat": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "mega": "Готовая еда",
+    "scenario_gmv": 1384106158.160052,
+    "scenario_gmv_share": 0.011619694035972409,
+    "mccs": [
+      {
+        "mcc": "Продуктовые магазины",
+        "role": "primary",
+        "retailers": [
+          {
+            "merchant": "Вкусвилл",
+            "share": 0.2183708358326522,
+            "smkt_gmv": 26946390151.23,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Перекресток",
+            "share": 0.2032865534889842,
+            "smkt_gmv": 25085029152.02,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Самокат",
+            "share": 0.13119523240805483,
+            "smkt_gmv": 16189148633.19,
+            "is_samokat": true
+          },
+          {
+            "merchant": "Магнит",
+            "share": 0.09248916681658036,
+            "smkt_gmv": 11412921346.84,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Красное белое",
+            "share": 0.07621579517258395,
+            "smkt_gmv": 9404829837.17,
+            "is_samokat": false
+          },
+          {
+            "merchant": "YandexMarket",
+            "share": 0.06545854980052415,
+            "smkt_gmv": 8077413886.03,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Азбука",
+            "share": 0.04718636646348005,
+            "smkt_gmv": 5822674239.88,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Купер",
+            "share": 0.045485603408033766,
+            "smkt_gmv": 5612804525.95,
+            "is_samokat": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "mega": "Малыши",
+    "scenario_gmv": 1004339289.481252,
+    "scenario_gmv_share": 0.008431517469434298,
+    "mccs": [
+      {
+        "mcc": "Игрушки",
+        "role": "secondary",
+        "retailers": [
+          {
+            "merchant": "Детский мир",
+            "share": 0.9064000547122183,
+            "smkt_gmv": 3516242985.99,
+            "is_samokat": false
+          },
+          {
+            "merchant": "ЦДМ игрушки",
+            "share": 0.01843557806014945,
+            "smkt_gmv": 71518058.4,
+            "is_samokat": false
+          },
+          {
+            "merchant": "BoanBaby",
+            "share": 0.014731438887150733,
+            "smkt_gmv": 57148406.370000005,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Тойс про",
+            "share": 0.010168516357977123,
+            "smkt_gmv": 39447233.19,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Лапси",
+            "share": 0.00879220762310964,
+            "smkt_gmv": 34108050.0,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Лавка Чудес",
+            "share": 0.006588501161694469,
+            "smkt_gmv": 25559101.5,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Hobby Games",
+            "share": 0.006534976407827801,
+            "smkt_gmv": 25351460.25,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Aviapark Khoun",
+            "share": 0.005932912378026189,
+            "smkt_gmv": 23015843.2,
+            "is_samokat": false
+          }
+        ]
+      },
+      {
+        "mcc": "Одежда детская",
+        "role": "secondary",
+        "retailers": [
+          {
+            "merchant": "Детский Мир",
+            "share": 0.6027467045348771,
+            "smkt_gmv": 1269069784.06,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Детский мир",
+            "share": 0.08123263431173891,
+            "smkt_gmv": 171033505.29999998,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Kenguru",
+            "share": 0.0670585737719751,
+            "smkt_gmv": 141190336.0,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Гулливер",
+            "share": 0.04631036274105539,
+            "smkt_gmv": 97505439.02000001,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Kotofej",
+            "share": 0.04196502549076533,
+            "smkt_gmv": 88356428.06,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Acoola",
+            "share": 0.024108530878077336,
+            "smkt_gmv": 50759975.7,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Торговый дом",
+            "share": 0.022058153157321795,
+            "smkt_gmv": 46442951.0,
+            "is_samokat": false
+          },
+          {
+            "merchant": "ООО Квест",
+            "share": 0.017797697335374608,
+            "smkt_gmv": 37472656.0,
+            "is_samokat": false
+          }
+        ]
+      },
+      {
+        "mcc": "Аптеки",
+        "role": "secondary",
+        "retailers": [
+          {
+            "merchant": "Горздрав",
+            "share": 0.37070868754404446,
+            "smkt_gmv": 4567545906.82,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Аптечное учреждение",
+            "share": 0.25939240856659906,
+            "smkt_gmv": 3196004770.91,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Аптека здоров.ру",
+            "share": 0.10636915871431862,
+            "smkt_gmv": 1310587077.73,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Аптека",
+            "share": 0.055213028680925515,
+            "smkt_gmv": 680286304.66,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Еаптека",
+            "share": 0.05393150187675328,
+            "smkt_gmv": 664496460.22,
+            "is_samokat": false
+          },
+          {
+            "merchant": "ООО \"АПТЕЧНАЯ СЕТЬ ОЗ\"",
+            "share": 0.025528400220190227,
+            "smkt_gmv": 314538460.65999997,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Апрель",
+            "share": 0.02275983960874994,
+            "smkt_gmv": 280426695.51,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Аптечный Пункт",
+            "share": 0.018129710146901904,
+            "smkt_gmv": 223378318.76,
+            "is_samokat": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "mega": "Гостиная",
+    "scenario_gmv": 949592793.7974942,
+    "scenario_gmv_share": 0.007971915779465233,
+    "mccs": [
+      {
+        "mcc": "Бытовая техника и электроника",
+        "role": "primary",
+        "retailers": [
+          {
+            "merchant": "DNS",
+            "share": 0.4309113735996527,
+            "smkt_gmv": 5778569104.98,
+            "is_samokat": false
+          },
+          {
+            "merchant": "М.Видео",
+            "share": 0.25437520831328647,
+            "smkt_gmv": 3411199633.82,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Megamarket",
+            "share": 0.06965391866921196,
+            "smkt_gmv": 934066741.1500001,
+            "is_samokat": false
+          },
+          {
+            "merchant": "MVM",
+            "share": 0.05946524156801719,
+            "smkt_gmv": 797435456.1,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Bork",
+            "share": 0.045919048040004816,
+            "smkt_gmv": 615779505.0,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Технопарк",
+            "share": 0.023400225648180308,
+            "smkt_gmv": 313799610.0,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Re-store",
+            "share": 0.021596136104807543,
+            "smkt_gmv": 289606570.0,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Regard",
+            "share": 0.011832800620320669,
+            "smkt_gmv": 158679163.0,
+            "is_samokat": false
+          }
+        ]
+      },
+      {
+        "mcc": "Товары для дома",
+        "role": "primary",
+        "retailers": [
+          {
+            "merchant": "ЛеманаПро",
+            "share": 0.5636357286544543,
+            "smkt_gmv": 7270579176.16,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Hoff",
+            "share": 0.14073339501115842,
+            "smkt_gmv": 1815380464.9699998,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Petrovich",
+            "share": 0.09457918286299011,
+            "smkt_gmv": 1220017473.1,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Ле Монлид",
+            "share": 0.07350986996906798,
+            "smkt_gmv": 948235363.14,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Все инструменты",
+            "share": 0.045992430660188995,
+            "smkt_gmv": 593276103.02,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Kuchenland Home",
+            "share": 0.03313756321731359,
+            "smkt_gmv": 427455650.57,
+            "is_samokat": false
+          },
+          {
+            "merchant": "169",
+            "share": 0.02796516533462947,
+            "smkt_gmv": 360734670.29,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Aviapark Khoun",
+            "share": 0.004484352319376985,
+            "smkt_gmv": 57845585.25,
+            "is_samokat": false
+          }
+        ]
+      },
+      {
+        "mcc": "Мебель",
+        "role": "secondary",
+        "retailers": [
+          {
+            "merchant": "Аскона",
+            "share": 0.20159906190353696,
+            "smkt_gmv": 824355352.86,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Стильные Кухни",
+            "share": 0.1840373775404448,
+            "smkt_gmv": 752544163.0,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Диван.ру",
+            "share": 0.12317165114446363,
+            "smkt_gmv": 503659139.0,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Орматек",
+            "share": 0.09703907229755274,
+            "smkt_gmv": 396800847.83000004,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Hoff",
+            "share": 0.06255756663251397,
+            "smkt_gmv": 255803099.62,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Мария хоум",
+            "share": 0.049416358696965736,
+            "smkt_gmv": 202067606.0,
+            "is_samokat": false
+          },
+          {
+            "merchant": "MOD Dostavka",
+            "share": 0.03387799387466564,
+            "smkt_gmv": 138529938.24,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Aviapark Khoun",
+            "share": 0.026186989656102586,
+            "smkt_gmv": 107080781.5,
+            "is_samokat": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "mega": "Подарки",
+    "scenario_gmv": 483282740.2206877,
+    "scenario_gmv_share": 0.004057201495075903,
+    "mccs": [
+      {
+        "mcc": "Маркетплейсы",
+        "role": "channel",
+        "retailers": [
+          {
+            "merchant": "WB",
+            "share": 0.46043577543843894,
+            "smkt_gmv": 41554951135.450005,
+            "is_samokat": false
+          },
+          {
+            "merchant": "OZON",
+            "share": 0.2794327736966172,
+            "smkt_gmv": 25219185554.27,
+            "is_samokat": false
+          },
+          {
+            "merchant": "AVITO",
+            "share": 0.12449189760814476,
+            "smkt_gmv": 11235562043.24,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Lamoda",
+            "share": 0.06877475913477804,
+            "smkt_gmv": 6207014979.4,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Aliexpress",
+            "share": 0.03774446974705107,
+            "smkt_gmv": 3406489416.42,
+            "is_samokat": false
+          },
+          {
+            "merchant": "YandexMarket",
+            "share": 0.021823948155628884,
+            "smkt_gmv": 1969640821.9499998,
+            "is_samokat": false
+          },
+          {
+            "merchant": "TvoiDom",
+            "share": 0.0031281633508072454,
+            "smkt_gmv": 282320970.96000004,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Joom",
+            "share": 0.0013726284128031114,
+            "smkt_gmv": 123881569.72999999,
+            "is_samokat": false
+          }
+        ]
+      },
+      {
+        "mcc": "Игрушки",
+        "role": "secondary",
+        "retailers": [
+          {
+            "merchant": "Детский мир",
+            "share": 0.9064000547122183,
+            "smkt_gmv": 3516242985.99,
+            "is_samokat": false
+          },
+          {
+            "merchant": "ЦДМ игрушки",
+            "share": 0.01843557806014945,
+            "smkt_gmv": 71518058.4,
+            "is_samokat": false
+          },
+          {
+            "merchant": "BoanBaby",
+            "share": 0.014731438887150733,
+            "smkt_gmv": 57148406.370000005,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Тойс про",
+            "share": 0.010168516357977123,
+            "smkt_gmv": 39447233.19,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Лапси",
+            "share": 0.00879220762310964,
+            "smkt_gmv": 34108050.0,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Лавка Чудес",
+            "share": 0.006588501161694469,
+            "smkt_gmv": 25559101.5,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Hobby Games",
+            "share": 0.006534976407827801,
+            "smkt_gmv": 25351460.25,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Aviapark Khoun",
+            "share": 0.005932912378026189,
+            "smkt_gmv": 23015843.2,
+            "is_samokat": false
+          }
+        ]
+      },
+      {
+        "mcc": "Косметика",
+        "role": "secondary",
+        "retailers": [
+          {
+            "merchant": "Золотое Яблоко",
+            "share": 0.521969079082794,
+            "smkt_gmv": 4337949804.63,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Летуаль",
+            "share": 0.15857271870135758,
+            "smkt_gmv": 1317856788.22,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Подружка",
+            "share": 0.1146196585648602,
+            "smkt_gmv": 952574291.09,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Рив Гош",
+            "share": 0.07822998115362188,
+            "smkt_gmv": 650149108.56,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Алькор и КО",
+            "share": 0.03383887061365782,
+            "smkt_gmv": 281226088.0,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Salaris",
+            "share": 0.032296636412889726,
+            "smkt_gmv": 268408979.06,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Элиз",
+            "share": 0.013072837738761094,
+            "smkt_gmv": 108644968.03999999,
+            "is_samokat": false
+          },
+          {
+            "merchant": "Doterra",
+            "share": 0.01232387553538543,
+            "smkt_gmv": 102420537.18,
+            "is_samokat": false
+          }
+        ]
+      }
+    ]
+  }
+]

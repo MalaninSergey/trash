@@ -1,0 +1,23 @@
+{
+  "k_data": 169,
+  "k_eff": 169,
+  "wide_threshold": 30,
+  "period_from": "2025-12-01 07:00:07.563",
+  "period_to": "2026-05-30 23:59:59.75",
+  "total_checks": 98778532,
+  "assigned_checks": 127914277,
+  "allocation_rows": 1623706426,
+  "allocated_gmv": 119289019985.07732,
+  "unallocated_gmv": 15434103335.89,
+  "total_line_gmv": 97444366162.05,
+  "unalloc_ml4_count": 2732,
+  "category_tree_remapped": true,
+  "category_tree_xlsx": "/home/jovyan/data/src/scenaries/inputs/дерево товаров смкт.xlsx",
+  "catalog_space": "old",
+  "ready_food_mono": true,
+  "scenarios_xlsx": "/home/jovyan/data/src/scenaries/inputs/Сценарии_описания_ml3_ml4_v9_extend_da_rooms.xlsx",
+  "reassign_gmv": false,
+  "slim_gmv_total": 141732997519.30988,
+  "national_users": 11557292,
+  "national_users_source": "_orders_slim.parquet count(distinct customer_id)"
+}

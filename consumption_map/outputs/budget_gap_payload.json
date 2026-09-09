@@ -1,0 +1,2294 @@
+{
+  "city": "Москва",
+  "gap_definition": "Gap = доля MCC в полном кошельке Сбера (gmv) минус доля MCC, имплицитно выделенная сценариям Самоката через soft-bridge.",
+  "etalon_thin_max": 50.0,
+  "master": [
+    {
+      "city": "Москва",
+      "mcc_group": "Маркетплейсы",
+      "bridge_type": "channel",
+      "sber_full_share": 0.2960595296709308,
+      "sber_smkt_share": 0.3121998582944387,
+      "gmv": 300593667546.9,
+      "smkt_gmv": 90257055518.01,
+      "rub_per_customer": 65967.82334008753,
+      "rub_per_smkt_customer": 181220.50857845883,
+      "samokat_implied_share": 0.0015339665712785664,
+      "samokat_implied_gmv": 182985368.97769326,
+      "gap_pp": 0.2945255630996522,
+      "gap_pp_vs_smkt_aud": 0.3106658917231601,
+      "gap_ratio": 0.005181277471404367,
+      "etalon_sum_new": NaN,
+      "etalon_max_new": NaN,
+      "etalon_15_new": NaN,
+      "etalon_status": "н/п (канал)",
+      "ml4_count": NaN,
+      "mapped_lvl1": "",
+      "n_megas": 1,
+      "megas": "Подарки",
+      "conclusion": "Канал (маркетплейсы) силён в Сбере, слабо в сценариях — не эталон, а ось Where."
+    },
+    {
+      "city": "Москва",
+      "mcc_group": "Бытовая техника и электроника",
+      "bridge_type": "specialty",
+      "sber_full_share": 0.04668483950211257,
+      "sber_smkt_share": 0.046445385881830885,
+      "gmv": 47399815639.7,
+      "smkt_gmv": 13427372436.98,
+      "rub_per_customer": 29244.144293698726,
+      "rub_per_smkt_customer": 66982.4675970887,
+      "samokat_implied_share": 0.004874768014672663,
+      "samokat_implied_gmv": 581506299.1249152,
+      "gap_pp": 0.04181007148743991,
+      "gap_pp_vs_smkt_aud": 0.041570617867158224,
+      "gap_ratio": 0.10441865210765201,
+      "etalon_sum_new": 436.0,
+      "etalon_max_new": 391.0,
+      "etalon_15_new": 45.0,
+      "etalon_status": "широкий",
+      "ml4_count": 147.0,
+      "mapped_lvl1": "Бытовая техника и Электроника; Компьютеры и аксессуары; Смартфоны и гаджеты",
+      "n_megas": 4,
+      "megas": "Ванная; Гостиная; Домашний офис; Кухня",
+      "conclusion": "Недобор 4.2 п.п.; NEW-эталон уже широкий (436 SKU) → причина не в узком эталоне (миссии / спрос / канал)."
+    },
+    {
+      "city": "Москва",
+      "mcc_group": "Аптеки",
+      "bridge_type": "specialty",
+      "sber_full_share": 0.05277790614737292,
+      "sber_smkt_share": 0.042624203812277606,
+      "gmv": 53586197316.19,
+      "smkt_gmv": 12322667764.529999,
+      "rub_per_customer": 11416.453880919576,
+      "rub_per_smkt_customer": 26883.493932954163,
+      "samokat_implied_share": 0.018741852350810374,
+      "samokat_implied_gmv": 2235697199.633234,
+      "gap_pp": 0.03403605379656255,
+      "gap_pp_vs_smkt_aud": 0.023882351461467232,
+      "gap_ratio": 0.35510791766685634,
+      "etalon_sum_new": 293.0,
+      "etalon_max_new": 289.0,
+      "etalon_15_new": 4.0,
+      "etalon_status": "широкий",
+      "ml4_count": 72.0,
+      "mapped_lvl1": "Аптека; Бады и Витамины; Гигиена",
+      "n_megas": 3,
+      "megas": "Здоровье; Малыши; Срочно нужно сейчас",
+      "conclusion": "Недобор 3.4 п.п.; NEW-эталон уже широкий (293 SKU) → причина не в узком эталоне (миссии / спрос / канал)."
+    },
+    {
+      "city": "Москва",
+      "mcc_group": "Одежда для взрослых",
+      "bridge_type": "specialty",
+      "sber_full_share": 0.026850266335984835,
+      "sber_smkt_share": 0.02874944779475046,
+      "gmv": 27261476911.469997,
+      "smkt_gmv": 8311472400.72,
+      "rub_per_customer": 19277.6552622602,
+      "rub_per_smkt_customer": 42696.28541710118,
+      "samokat_implied_share": 0.000667046429105147,
+      "samokat_implied_gmv": 79571314.8125,
+      "gap_pp": 0.026183219906879687,
+      "gap_pp_vs_smkt_aud": 0.028082401365645313,
+      "gap_ratio": 0.0248431959950866,
+      "etalon_sum_new": 123.0,
+      "etalon_max_new": 94.0,
+      "etalon_15_new": 29.0,
+      "etalon_status": "широкий",
+      "ml4_count": 84.0,
+      "mapped_lvl1": "Одежда; Аксессуары",
+      "n_megas": 1,
+      "megas": "Гардероб",
+      "conclusion": "Недобор 2.6 п.п.; NEW-эталон уже широкий (123 SKU) → причина не в узком эталоне (миссии / спрос / канал)."
+    },
+    {
+      "city": "Москва",
+      "mcc_group": "Обувь",
+      "bridge_type": "specialty",
+      "sber_full_share": 0.010064931134171149,
+      "sber_smkt_share": 0.009191077567900895,
+      "gmv": 10219075084.630001,
+      "smkt_gmv": 2657142776.58,
+      "rub_per_customer": 18651.07843767567,
+      "rub_per_smkt_customer": 42082.68441393073,
+      "samokat_implied_share": 0.000285877041045063,
+      "samokat_implied_gmv": 34101992.0625,
+      "gap_pp": 0.009779054093126086,
+      "gap_pp_vs_smkt_aud": 0.008905200526855832,
+      "gap_ratio": 0.028403278396460195,
+      "etalon_sum_new": 15.0,
+      "etalon_max_new": 15.0,
+      "etalon_15_new": 0.0,
+      "etalon_status": "узкий",
+      "ml4_count": 18.0,
+      "mapped_lvl1": "Обувь",
+      "n_megas": 1,
+      "megas": "Гардероб",
+      "conclusion": "Доли сопоставимы; NEW-эталон 15 SKU."
+    },
+    {
+      "city": "Москва",
+      "mcc_group": "Зоомагазины",
+      "bridge_type": "specialty",
+      "sber_full_share": 0.011026879577685347,
+      "sber_smkt_share": 0.011633009719533382,
+      "gmv": 11195755723.65,
+      "smkt_gmv": 3363105959.86,
+      "rub_per_customer": 9660.16606568297,
+      "rub_per_smkt_customer": 21649.410082526523,
+      "samokat_implied_share": 0.003866168143648868,
+      "samokat_implied_gmv": 461191408.9534088,
+      "gap_pp": 0.007160711434036479,
+      "gap_pp_vs_smkt_aud": 0.007766841575884514,
+      "gap_ratio": 0.3506130738448144,
+      "etalon_sum_new": 114.0,
+      "etalon_max_new": 84.0,
+      "etalon_15_new": 30.0,
+      "etalon_status": "широкий",
+      "ml4_count": 63.0,
+      "mapped_lvl1": "Продукция для животных",
+      "n_megas": 1,
+      "megas": "Питомцы",
+      "conclusion": "Доли сопоставимы; NEW-эталон 114 SKU."
+    },
+    {
+      "city": "Москва",
+      "mcc_group": "Косметика",
+      "bridge_type": "specialty",
+      "sber_full_share": 0.023994795355036173,
+      "sber_smkt_share": 0.028802320905738855,
+      "gmv": 24362274525.75,
+      "smkt_gmv": 8326758030.06,
+      "rub_per_customer": 11628.93162996051,
+      "rub_per_smkt_customer": 26295.578949219984,
+      "samokat_implied_share": 0.018408130463577983,
+      "samokat_implied_gmv": 2195887842.7577105,
+      "gap_pp": 0.00558666489145819,
+      "gap_pp_vs_smkt_aud": 0.010394190442160871,
+      "gap_ratio": 0.7671718050187235,
+      "etalon_sum_new": 687.0,
+      "etalon_max_new": 545.0,
+      "etalon_15_new": 142.0,
+      "etalon_status": "широкий",
+      "ml4_count": 137.0,
+      "mapped_lvl1": "Уход; Парфюмерия и декоративная косметика; Детская гигиена и уход",
+      "n_megas": 4,
+      "megas": "Ванная; Красота; Подарки; Эмоции",
+      "conclusion": "Доли сопоставимы; NEW-эталон 687 SKU."
+    },
+    {
+      "city": "Москва",
+      "mcc_group": "Спортивные товары",
+      "bridge_type": "specialty",
+      "sber_full_share": 0.0020241271435685352,
+      "sber_smkt_share": 0.0019786391708335447,
+      "gmv": 2055126556.2800002,
+      "smkt_gmv": 572025069.03,
+      "rub_per_customer": 21621.076424273033,
+      "rub_per_smkt_customer": 43806.48407336498,
+      "samokat_implied_share": 2.063330723194685e-05,
+      "samokat_implied_gmv": 2461326.99875,
+      "gap_pp": 0.0020034938363365884,
+      "gap_pp_vs_smkt_aud": 0.001958005863601598,
+      "gap_ratio": 0.010193681408555363,
+      "etalon_sum_new": 29.0,
+      "etalon_max_new": 26.0,
+      "etalon_15_new": 3.0,
+      "etalon_status": "узкий",
+      "ml4_count": 37.0,
+      "mapped_lvl1": "Спорт и активный отдых",
+      "n_megas": 1,
+      "megas": "Спорт",
+      "conclusion": "Доли сопоставимы; NEW-эталон 29 SKU."
+    },
+    {
+      "city": "Москва",
+      "mcc_group": "Автотовары",
+      "bridge_type": "specialty",
+      "sber_full_share": 0.010489897788469281,
+      "sber_smkt_share": 0.00679673720039364,
+      "gmv": 10650550083.4,
+      "smkt_gmv": 1964938389.75,
+      "rub_per_customer": 14834.027757559044,
+      "rub_per_smkt_customer": 35634.15164031047,
+      "samokat_implied_share": 0.01486999861648913,
+      "samokat_implied_gmv": 1773827562.140481,
+      "gap_pp": -0.0043801008280198485,
+      "gap_pp_vs_smkt_aud": -0.00807326141609549,
+      "gap_ratio": 1.4175541951261479,
+      "etalon_sum_new": 30.0,
+      "etalon_max_new": 27.0,
+      "etalon_15_new": 3.0,
+      "etalon_status": "узкий",
+      "ml4_count": 26.0,
+      "mapped_lvl1": "Автомобильные товары и запчасти",
+      "n_megas": 1,
+      "megas": "Авто",
+      "conclusion": "Доли сопоставимы; NEW-эталон 30 SKU."
+    },
+    {
+      "city": "Москва",
+      "mcc_group": "Книжные магазины",
+      "bridge_type": "specialty",
+      "sber_full_share": 0.004384769954540343,
+      "sber_smkt_share": 0.00393684417876884,
+      "gmv": 4451922501.7,
+      "smkt_gmv": 1138142616.56,
+      "rub_per_customer": 3126.141515629224,
+      "rub_per_smkt_customer": 6016.443324382043,
+      "samokat_implied_share": 0.01167045668971556,
+      "samokat_implied_gmv": 1392157341.294488,
+      "gap_pp": -0.007285686735175217,
+      "gap_pp_vs_smkt_aud": -0.00773361251094672,
+      "gap_ratio": 2.6615892762244076,
+      "etalon_sum_new": 363.0,
+      "etalon_max_new": 302.0,
+      "etalon_15_new": 61.0,
+      "etalon_status": "широкий",
+      "ml4_count": 114.0,
+      "mapped_lvl1": "Книги, хобби, канцелярия",
+      "n_megas": 1,
+      "megas": "Работа и учеба",
+      "conclusion": "Доли сопоставимы; NEW-эталон 363 SKU."
+    },
+    {
+      "city": "Москва",
+      "mcc_group": "Мебель",
+      "bridge_type": "specialty",
+      "sber_full_share": 0.013609625330333806,
+      "sber_smkt_share": 0.014566937981290612,
+      "gmv": 13818056106.93,
+      "smkt_gmv": 4211305339.11,
+      "rub_per_customer": 62582.90959496549,
+      "rub_per_smkt_customer": 121510.33928991864,
+      "samokat_implied_share": 0.021302234880893712,
+      "samokat_implied_gmv": 2541122722.433794,
+      "gap_pp": -0.007692609550559906,
+      "gap_pp_vs_smkt_aud": -0.0067352968996031,
+      "gap_ratio": 1.5652330144176885,
+      "etalon_sum_new": 37.0,
+      "etalon_max_new": 37.0,
+      "etalon_15_new": 0.0,
+      "etalon_status": "узкий",
+      "ml4_count": 16.0,
+      "mapped_lvl1": "Мебель",
+      "n_megas": 6,
+      "megas": "Гостиная; Детская; Дом и быт; Домашний офис; Кухня; Спальня",
+      "conclusion": "Доли сопоставимы; NEW-эталон 37 SKU."
+    },
+    {
+      "city": "Москва",
+      "mcc_group": "Канцтовары",
+      "bridge_type": "specialty",
+      "sber_full_share": 0.0006863157642103831,
+      "sber_smkt_share": 0.0006779075185440247,
+      "gmv": 696826658.1,
+      "smkt_gmv": 195983229.69,
+      "rub_per_customer": 2736.9253112701394,
+      "rub_per_smkt_customer": 5820.362012651461,
+      "samokat_implied_share": 0.01167045668971556,
+      "samokat_implied_gmv": 1392157341.294488,
+      "gap_pp": -0.010984140925505178,
+      "gap_pp_vs_smkt_aud": -0.010992549171171536,
+      "gap_ratio": 17.004500403895868,
+      "etalon_sum_new": 363.0,
+      "etalon_max_new": 302.0,
+      "etalon_15_new": 61.0,
+      "etalon_status": "широкий",
+      "ml4_count": 114.0,
+      "mapped_lvl1": "Книги, хобби, канцелярия",
+      "n_megas": 1,
+      "megas": "Работа и учеба",
+      "conclusion": "Самокат перевешивает vs Сбер (-1.1 п.п.); эталон 363 SKU."
+    },
+    {
+      "city": "Москва",
+      "mcc_group": "Товары для дома",
+      "bridge_type": "specialty",
+      "sber_full_share": 0.0588331798831773,
+      "sber_smkt_share": 0.04467055926471044,
+      "gmv": 59734207286.58,
+      "smkt_gmv": 12914269627.16,
+      "rub_per_customer": 29902.433368314665,
+      "rub_per_smkt_customer": 67396.61420319806,
+      "samokat_implied_share": 0.08258055622653922,
+      "samokat_implied_gmv": 9850953622.086643,
+      "gap_pp": -0.023747376343361916,
+      "gap_pp_vs_smkt_aud": -0.03790999696182878,
+      "gap_ratio": 1.4036391775952979,
+      "etalon_sum_new": 839.0,
+      "etalon_max_new": 797.0,
+      "etalon_15_new": 42.0,
+      "etalon_status": "широкий",
+      "ml4_count": 232.0,
+      "mapped_lvl1": "Товары для дома; Бытовая химия; Ремонт и обустройство дома; Строительство и ремонт; Посуда и кухонные принадлежности",
+      "n_megas": 10,
+      "megas": "Ванная; Гостиная; Дача; Детская; Дом и быт; Домашний офис; Кухня; Прихожая; Спальня; Стирка",
+      "conclusion": "Самокат перевешивает vs Сбер (-2.4 п.п.); эталон 839 SKU."
+    },
+    {
+      "city": "Москва",
+      "mcc_group": "Одежда детская",
+      "bridge_type": "specialty",
+      "sber_full_share": 0.0067843876935191885,
+      "sber_smkt_share": 0.007369220604782004,
+      "gmv": 6888290274.33,
+      "smkt_gmv": 2130443482.21,
+      "rub_per_customer": 12407.645068277,
+      "rub_per_smkt_customer": 24544.279748963134,
+      "samokat_implied_share": 0.043159612900035844,
+      "samokat_implied_gmv": 5148467925.780684,
+      "gap_pp": -0.036375225206516655,
+      "gap_pp_vs_smkt_aud": -0.03579039229525384,
+      "gap_ratio": 6.361607686610278,
+      "etalon_sum_new": 343.0,
+      "etalon_max_new": 307.0,
+      "etalon_15_new": 36.0,
+      "etalon_status": "широкий",
+      "ml4_count": 126.0,
+      "mapped_lvl1": "Одежда; Детские товары; Детская гигиена и уход",
+      "n_megas": 2,
+      "megas": "Дети; Малыши",
+      "conclusion": "Самокат перевешивает vs Сбер (-3.6 п.п.); эталон 343 SKU."
+    },
+    {
+      "city": "Москва",
+      "mcc_group": "Игрушки",
+      "bridge_type": "specialty",
+      "sber_full_share": 0.011683201679820223,
+      "sber_smkt_share": 0.013492860126346765,
+      "gmv": 11862129368.14,
+      "smkt_gmv": 3900789168.1099997,
+      "rub_per_customer": 9149.93352304081,
+      "rub_per_smkt_customer": 23490.663857049083,
+      "samokat_implied_share": 0.054331881568903784,
+      "samokat_implied_gmv": 6481196906.299953,
+      "gap_pp": -0.04264867988908356,
+      "gap_pp_vs_smkt_aud": -0.04083902144255702,
+      "gap_ratio": 4.650427430585947,
+      "etalon_sum_new": 163.0,
+      "etalon_max_new": 152.0,
+      "etalon_15_new": 11.0,
+      "etalon_status": "широкий",
+      "ml4_count": 69.0,
+      "mapped_lvl1": "Детские товары",
+      "n_megas": 4,
+      "megas": "Дети; Детская; Малыши; Подарки",
+      "conclusion": "Самокат перевешивает vs Сбер (-4.3 п.п.); эталон 163 SKU."
+    },
+    {
+      "city": "Москва",
+      "mcc_group": "Продуктовые магазины",
+      "bridge_type": "grocery",
+      "sber_full_share": 0.42404534703906716,
+      "sber_smkt_share": 0.42686498997785927,
+      "gmv": 430539581733.27,
+      "smkt_gmv": 123406773179.22,
+      "rub_per_customer": 65301.96564860125,
+      "rub_per_smkt_customer": 224168.49348370326,
+      "samokat_implied_share": 0.7120163601063366,
+      "samokat_implied_gmv": 84935733810.42857,
+      "gap_pp": -0.28797101306726947,
+      "gap_pp_vs_smkt_aud": -0.28515137012847735,
+      "gap_ratio": 1.6791042870250827,
+      "etalon_sum_new": 185.0,
+      "etalon_max_new": 185.0,
+      "etalon_15_new": 0.0,
+      "etalon_status": "широкий",
+      "ml4_count": 48.0,
+      "mapped_lvl1": "Бакалея; Безалкогольные напитки; Детское питание; Кондитерские изделия; Консервированные продукты; Кофе, какао; Молочная продукция; Мучные кондитерские изделия; Снэки; Специальное питание; Табачные изделия; Чай",
+      "n_megas": 7,
+      "megas": "Гости и праздник; Готовая еда; Готовлю дома; Дача; Пикник и отдых; Срочно нужно сейчас; Эмоции",
+      "conclusion": "Grocery food-ml1 rollup: Самокат перевешивает vs Сбер (-28.8 п.п.); эталон 185 SKU."
+    }
+  ],
+  "sber_wallet": [
+    {
+      "mcc_group": "Продуктовые магазины",
+      "gmv": 430539581733.27,
+      "smkt_gmv": 123406773179.22,
+      "customers": 6593057,
+      "smkt_customers": 550509,
+      "sber_full_share": 0.42404534703906716,
+      "sber_smkt_share": 0.42686498997785927,
+      "sber_share": 0.42404534703906716,
+      "rub_per_customer": 65301.96564860125,
+      "rub_per_smkt_customer": 224168.49348370326,
+      "city": "Москва",
+      "wallet_total_gmv": 1015314953317.02,
+      "wallet_total_smkt_gmv": 289100244987.58
+    },
+    {
+      "mcc_group": "Маркетплейсы",
+      "gmv": 300593667546.9,
+      "smkt_gmv": 90257055518.01,
+      "customers": 4556671,
+      "smkt_customers": 498051,
+      "sber_full_share": 0.2960595296709308,
+      "sber_smkt_share": 0.3121998582944387,
+      "sber_share": 0.2960595296709308,
+      "rub_per_customer": 65967.82334008753,
+      "rub_per_smkt_customer": 181220.50857845883,
+      "city": "Москва",
+      "wallet_total_gmv": 1015314953317.02,
+      "wallet_total_smkt_gmv": 289100244987.58
+    },
+    {
+      "mcc_group": "Товары для дома",
+      "gmv": 59734207286.58,
+      "smkt_gmv": 12914269627.16,
+      "customers": 1997637,
+      "smkt_customers": 191616,
+      "sber_full_share": 0.0588331798831773,
+      "sber_smkt_share": 0.04467055926471044,
+      "sber_share": 0.0588331798831773,
+      "rub_per_customer": 29902.433368314665,
+      "rub_per_smkt_customer": 67396.61420319806,
+      "city": "Москва",
+      "wallet_total_gmv": 1015314953317.02,
+      "wallet_total_smkt_gmv": 289100244987.58
+    },
+    {
+      "mcc_group": "Аптеки",
+      "gmv": 53586197316.19,
+      "smkt_gmv": 12322667764.529999,
+      "customers": 4693769,
+      "smkt_customers": 458373,
+      "sber_full_share": 0.05277790614737292,
+      "sber_smkt_share": 0.042624203812277606,
+      "sber_share": 0.05277790614737292,
+      "rub_per_customer": 11416.453880919576,
+      "rub_per_smkt_customer": 26883.493932954163,
+      "city": "Москва",
+      "wallet_total_gmv": 1015314953317.02,
+      "wallet_total_smkt_gmv": 289100244987.58
+    },
+    {
+      "mcc_group": "Бытовая техника и электроника",
+      "gmv": 47399815639.7,
+      "smkt_gmv": 13427372436.98,
+      "customers": 1620831,
+      "smkt_customers": 200461,
+      "sber_full_share": 0.04668483950211257,
+      "sber_smkt_share": 0.046445385881830885,
+      "sber_share": 0.04668483950211257,
+      "rub_per_customer": 29244.144293698726,
+      "rub_per_smkt_customer": 66982.4675970887,
+      "city": "Москва",
+      "wallet_total_gmv": 1015314953317.02,
+      "wallet_total_smkt_gmv": 289100244987.58
+    },
+    {
+      "mcc_group": "Одежда для взрослых",
+      "gmv": 27261476911.469997,
+      "smkt_gmv": 8311472400.72,
+      "customers": 1414149,
+      "smkt_customers": 194665,
+      "sber_full_share": 0.026850266335984835,
+      "sber_smkt_share": 0.02874944779475046,
+      "sber_share": 0.026850266335984835,
+      "rub_per_customer": 19277.6552622602,
+      "rub_per_smkt_customer": 42696.28541710118,
+      "city": "Москва",
+      "wallet_total_gmv": 1015314953317.02,
+      "wallet_total_smkt_gmv": 289100244987.58
+    },
+    {
+      "mcc_group": "Косметика",
+      "gmv": 24362274525.75,
+      "smkt_gmv": 8326758030.06,
+      "customers": 2094971,
+      "smkt_customers": 316660,
+      "sber_full_share": 0.023994795355036173,
+      "sber_smkt_share": 0.028802320905738855,
+      "sber_share": 0.023994795355036173,
+      "rub_per_customer": 11628.93162996051,
+      "rub_per_smkt_customer": 26295.578949219984,
+      "city": "Москва",
+      "wallet_total_gmv": 1015314953317.02,
+      "wallet_total_smkt_gmv": 289100244987.58
+    },
+    {
+      "mcc_group": "Мебель",
+      "gmv": 13818056106.93,
+      "smkt_gmv": 4211305339.11,
+      "customers": 220796,
+      "smkt_customers": 34658,
+      "sber_full_share": 0.013609625330333806,
+      "sber_smkt_share": 0.014566937981290612,
+      "sber_share": 0.013609625330333806,
+      "rub_per_customer": 62582.90959496549,
+      "rub_per_smkt_customer": 121510.33928991864,
+      "city": "Москва",
+      "wallet_total_gmv": 1015314953317.02,
+      "wallet_total_smkt_gmv": 289100244987.58
+    },
+    {
+      "mcc_group": "Игрушки",
+      "gmv": 11862129368.14,
+      "smkt_gmv": 3900789168.1099997,
+      "customers": 1296417,
+      "smkt_customers": 166057,
+      "sber_full_share": 0.011683201679820223,
+      "sber_smkt_share": 0.013492860126346765,
+      "sber_share": 0.011683201679820223,
+      "rub_per_customer": 9149.93352304081,
+      "rub_per_smkt_customer": 23490.663857049083,
+      "city": "Москва",
+      "wallet_total_gmv": 1015314953317.02,
+      "wallet_total_smkt_gmv": 289100244987.58
+    },
+    {
+      "mcc_group": "Зоомагазины",
+      "gmv": 11195755723.65,
+      "smkt_gmv": 3363105959.86,
+      "customers": 1158961,
+      "smkt_customers": 155344,
+      "sber_full_share": 0.011026879577685347,
+      "sber_smkt_share": 0.011633009719533382,
+      "sber_share": 0.011026879577685347,
+      "rub_per_customer": 9660.16606568297,
+      "rub_per_smkt_customer": 21649.410082526523,
+      "city": "Москва",
+      "wallet_total_gmv": 1015314953317.02,
+      "wallet_total_smkt_gmv": 289100244987.58
+    },
+    {
+      "mcc_group": "Автотовары",
+      "gmv": 10650550083.4,
+      "smkt_gmv": 1964938389.75,
+      "customers": 717981,
+      "smkt_customers": 55142,
+      "sber_full_share": 0.010489897788469281,
+      "sber_smkt_share": 0.00679673720039364,
+      "sber_share": 0.010489897788469281,
+      "rub_per_customer": 14834.027757559044,
+      "rub_per_smkt_customer": 35634.15164031047,
+      "city": "Москва",
+      "wallet_total_gmv": 1015314953317.02,
+      "wallet_total_smkt_gmv": 289100244987.58
+    },
+    {
+      "mcc_group": "Обувь",
+      "gmv": 10219075084.630001,
+      "smkt_gmv": 2657142776.58,
+      "customers": 547908,
+      "smkt_customers": 63141,
+      "sber_full_share": 0.010064931134171149,
+      "sber_smkt_share": 0.009191077567900895,
+      "sber_share": 0.010064931134171149,
+      "rub_per_customer": 18651.07843767567,
+      "rub_per_smkt_customer": 42082.68441393073,
+      "city": "Москва",
+      "wallet_total_gmv": 1015314953317.02,
+      "wallet_total_smkt_gmv": 289100244987.58
+    },
+    {
+      "mcc_group": "Одежда детская",
+      "gmv": 6888290274.33,
+      "smkt_gmv": 2130443482.21,
+      "customers": 555165,
+      "smkt_customers": 86800,
+      "sber_full_share": 0.0067843876935191885,
+      "sber_smkt_share": 0.007369220604782004,
+      "sber_share": 0.0067843876935191885,
+      "rub_per_customer": 12407.645068277,
+      "rub_per_smkt_customer": 24544.279748963134,
+      "city": "Москва",
+      "wallet_total_gmv": 1015314953317.02,
+      "wallet_total_smkt_gmv": 289100244987.58
+    },
+    {
+      "mcc_group": "Книжные магазины",
+      "gmv": 4451922501.7,
+      "smkt_gmv": 1138142616.56,
+      "customers": 1424095,
+      "smkt_customers": 189172,
+      "sber_full_share": 0.004384769954540343,
+      "sber_smkt_share": 0.00393684417876884,
+      "sber_share": 0.004384769954540343,
+      "rub_per_customer": 3126.141515629224,
+      "rub_per_smkt_customer": 6016.443324382043,
+      "city": "Москва",
+      "wallet_total_gmv": 1015314953317.02,
+      "wallet_total_smkt_gmv": 289100244987.58
+    },
+    {
+      "mcc_group": "Спортивные товары",
+      "gmv": 2055126556.2800002,
+      "smkt_gmv": 572025069.03,
+      "customers": 95052,
+      "smkt_customers": 13058,
+      "sber_full_share": 0.0020241271435685352,
+      "sber_smkt_share": 0.0019786391708335447,
+      "sber_share": 0.0020241271435685352,
+      "rub_per_customer": 21621.076424273033,
+      "rub_per_smkt_customer": 43806.48407336498,
+      "city": "Москва",
+      "wallet_total_gmv": 1015314953317.02,
+      "wallet_total_smkt_gmv": 289100244987.58
+    },
+    {
+      "mcc_group": "Канцтовары",
+      "gmv": 696826658.1,
+      "smkt_gmv": 195983229.69,
+      "customers": 254602,
+      "smkt_customers": 33672,
+      "sber_full_share": 0.0006863157642103831,
+      "sber_smkt_share": 0.0006779075185440247,
+      "sber_share": 0.0006863157642103831,
+      "rub_per_customer": 2736.9253112701394,
+      "rub_per_smkt_customer": 5820.362012651461,
+      "city": "Москва",
+      "wallet_total_gmv": 1015314953317.02,
+      "wallet_total_smkt_gmv": 289100244987.58
+    }
+  ],
+  "samokat_mega": [
+    {
+      "mega": "Готовлю дома",
+      "GMV": 39092732282.66326,
+      "Чеки": 37229297.52752257,
+      "mega_share": 0.32771442239656945,
+      "wallet_total_gmv": 119289019985.07982
+    },
+    {
+      "mega": "Гости и праздник",
+      "GMV": 27022104689.84949,
+      "Чеки": 25546658.40444896,
+      "mega_share": 0.22652633656667903,
+      "wallet_total_gmv": 119289019985.07982
+    },
+    {
+      "mega": "Дети",
+      "GMV": 10736636803.5717,
+      "Чеки": 11032168.47217207,
+      "mega_share": 0.09000523941696054,
+      "wallet_total_gmv": 119289019985.07982
+    },
+    {
+      "mega": "Дача",
+      "GMV": 8736286937.506628,
+      "Чеки": 7490322.446007573,
+      "mega_share": 0.07323630405044258,
+      "wallet_total_gmv": 119289019985.07982
+    },
+    {
+      "mega": "Дом и быт",
+      "GMV": 7609901828.555469,
+      "Чеки": 7357072.819453299,
+      "mega_share": 0.06379381630855283,
+      "wallet_total_gmv": 119289019985.07982
+    },
+    {
+      "mega": "Пикник и отдых",
+      "GMV": 7259969418.278065,
+      "Чеки": 7802616.681206143,
+      "mega_share": 0.0608603324864779,
+      "wallet_total_gmv": 119289019985.07982
+    },
+    {
+      "mega": "Эмоции",
+      "GMV": 4518643287.135696,
+      "Чеки": 4256726.088565663,
+      "mega_share": 0.03787979218624539,
+      "wallet_total_gmv": 119289019985.07982
+    },
+    {
+      "mega": "Готовая еда",
+      "GMV": 3753776384.383088,
+      "Чеки": 4825192.134504279,
+      "mega_share": 0.031467912007765636,
+      "wallet_total_gmv": 119289019985.07982
+    },
+    {
+      "mega": "Работа и учеба",
+      "GMV": 2784314682.588976,
+      "Чеки": 2887960.514661224,
+      "mega_share": 0.02334091337943112,
+      "wallet_total_gmv": 119289019985.07982
+    },
+    {
+      "mega": "Здоровье",
+      "GMV": 1906907226.048205,
+      "Чеки": 1832761.999495476,
+      "mega_share": 0.015985605601309433,
+      "wallet_total_gmv": 119289019985.07982
+    },
+    {
+      "mega": "Авто",
+      "GMV": 1773827562.140481,
+      "Чеки": 1744477.163462705,
+      "mega_share": 0.01486999861648913,
+      "wallet_total_gmv": 119289019985.07982
+    },
+    {
+      "mega": "Малыши",
+      "GMV": 1004344923.774625,
+      "Чеки": 882091.0683788457,
+      "mega_share": 0.008419424720734937,
+      "wallet_total_gmv": 119289019985.07982
+    },
+    {
+      "mega": "Гостиная",
+      "GMV": 949188582.7193649,
+      "Чеки": 989678.4955887733,
+      "mega_share": 0.00795704904640918,
+      "wallet_total_gmv": 119289019985.07982
+    },
+    {
+      "mega": "Питомцы",
+      "GMV": 461191408.9534088,
+      "Чеки": 394416.5102889949,
+      "mega_share": 0.003866168143648868,
+      "wallet_total_gmv": 119289019985.07982
+    },
+    {
+      "mega": "Подарки",
+      "GMV": 457463422.4442331,
+      "Чеки": 346185.6258299423,
+      "mega_share": 0.0038349164281964157,
+      "wallet_total_gmv": 119289019985.07982
+    },
+    {
+      "mega": "Красота",
+      "GMV": 345968315.6787922,
+      "Чеки": 218964.8898630149,
+      "mega_share": 0.0029002528122208104,
+      "wallet_total_gmv": 119289019985.07982
+    },
+    {
+      "mega": "Кухня",
+      "GMV": 324930627.0384422,
+      "Чеки": 289351.5691280139,
+      "mega_share": 0.0027238938426946855,
+      "wallet_total_gmv": 119289019985.07982
+    },
+    {
+      "mega": "Срочно нужно сейчас",
+      "GMV": 207209980.3769939,
+      "Чеки": 161917.2974816466,
+      "mega_share": 0.001737041518179216,
+      "wallet_total_gmv": 119289019985.07982
+    },
+    {
+      "mega": "Стирка",
+      "GMV": 162215127.8889233,
+      "Чеки": 107241.9417173884,
+      "mega_share": 0.0013598496149034712,
+      "wallet_total_gmv": 119289019985.07982
+    },
+    {
+      "mega": "Гардероб",
+      "GMV": 113673306.875,
+      "Чеки": 17599.66481924249,
+      "mega_share": 0.0009529234701502099,
+      "wallet_total_gmv": 119289019985.07982
+    },
+    {
+      "mega": "Ванная",
+      "GMV": 54567803.00928704,
+      "Чеки": 36111.67242290272,
+      "mega_share": 0.0004574419591686825,
+      "wallet_total_gmv": 119289019985.07982
+    },
+    {
+      "mega": "Детская",
+      "GMV": 6325772.361747114,
+      "Чеки": 3014.571617286552,
+      "mega_share": 5.302895742238737e-05,
+      "wallet_total_gmv": 119289019985.07982
+    },
+    {
+      "mega": "Спорт",
+      "GMV": 2461326.99875,
+      "Чеки": 1175.23497581569,
+      "mega_share": 2.063330723194685e-05,
+      "wallet_total_gmv": 119289019985.07982
+    },
+    {
+      "mega": "Спальня",
+      "GMV": 2455377.43155368,
+      "Чеки": 976.69096838566,
+      "mega_share": 2.0583432002885e-05,
+      "wallet_total_gmv": 119289019985.07982
+    },
+    {
+      "mega": "Прихожая",
+      "GMV": 1246535.17,
+      "Чеки": 885.8983133419528,
+      "mega_share": 1.0449705850177253e-05,
+      "wallet_total_gmv": 119289019985.07982
+    },
+    {
+      "mega": "Домашний офис",
+      "GMV": 676371.6376378344,
+      "Чеки": 570.4526912054004,
+      "mega_share": 5.670024263108476e-06,
+      "wallet_total_gmv": 119289019985.07982
+    }
+  ],
+  "samokat_ml1": [
+    {
+      "lvl1": "(не сматчено ml4→ml1)",
+      "GMV": 41322685073.27768,
+      "ml1_share": 0.34640811935957017,
+      "etalon_sum_new": NaN,
+      "etalon_max_new": NaN,
+      "etalon_15_new": NaN,
+      "etalon_status": "н/п"
+    },
+    {
+      "lvl1": "Товары для дома",
+      "GMV": 20103995781.162037,
+      "ml1_share": 0.1685318211489755,
+      "etalon_sum_new": 533.0,
+      "etalon_max_new": 499.0,
+      "etalon_15_new": 34.0,
+      "etalon_status": "широкий"
+    },
+    {
+      "lvl1": "Мучные кондитерские изделия",
+      "GMV": 9766755172.205359,
+      "ml1_share": 0.08187472051850996,
+      "etalon_sum_new": 4.0,
+      "etalon_max_new": 4.0,
+      "etalon_15_new": 0.0,
+      "etalon_status": "узкий"
+    },
+    {
+      "lvl1": "Мясная гастрономия",
+      "GMV": 7478494365.2527275,
+      "ml1_share": 0.06269222738344322,
+      "etalon_sum_new": NaN,
+      "etalon_max_new": NaN,
+      "etalon_15_new": NaN,
+      "etalon_status": "нет в NEW-эталоне"
+    },
+    {
+      "lvl1": "Книги, хобби, канцелярия",
+      "GMV": 6922106003.184504,
+      "ml1_share": 0.05802802306574647,
+      "etalon_sum_new": 363.0,
+      "etalon_max_new": 302.0,
+      "etalon_15_new": 61.0,
+      "etalon_status": "широкий"
+    },
+    {
+      "lvl1": "Снэки",
+      "GMV": 5716250686.254443,
+      "ml1_share": 0.047919336473460916,
+      "etalon_sum_new": 9.0,
+      "etalon_max_new": 9.0,
+      "etalon_15_new": 0.0,
+      "etalon_status": "узкий"
+    },
+    {
+      "lvl1": "Птица",
+      "GMV": 5546796535.366285,
+      "ml1_share": 0.04649880211992735,
+      "etalon_sum_new": NaN,
+      "etalon_max_new": NaN,
+      "etalon_15_new": NaN,
+      "etalon_status": "нет в NEW-эталоне"
+    },
+    {
+      "lvl1": "Свежие овощи",
+      "GMV": 5452081174.650975,
+      "ml1_share": 0.04570480313555178,
+      "etalon_sum_new": NaN,
+      "etalon_max_new": NaN,
+      "etalon_15_new": NaN,
+      "etalon_status": "нет в NEW-эталоне"
+    },
+    {
+      "lvl1": "Праздничные и сезонные товары",
+      "GMV": 5304570054.270342,
+      "ml1_share": 0.04446821723352087,
+      "etalon_sum_new": 14.0,
+      "etalon_max_new": 13.0,
+      "etalon_15_new": 1.0,
+      "etalon_status": "узкий"
+    },
+    {
+      "lvl1": "Детские товары",
+      "GMV": 5124983011.476035,
+      "ml1_share": 0.04296273883478167,
+      "etalon_sum_new": 163.0,
+      "etalon_max_new": 152.0,
+      "etalon_15_new": 11.0,
+      "etalon_status": "широкий"
+    },
+    {
+      "lvl1": "(мега без состава ml4)",
+      "GMV": 4884371460.586429,
+      "ml1_share": 0.04094569191026421,
+      "etalon_sum_new": NaN,
+      "etalon_max_new": NaN,
+      "etalon_15_new": NaN,
+      "etalon_status": "н/п"
+    },
+    {
+      "lvl1": "Бакалея",
+      "GMV": 4730301385.061891,
+      "ml1_share": 0.03965412227926374,
+      "etalon_sum_new": 7.0,
+      "etalon_max_new": 7.0,
+      "etalon_15_new": 0.0,
+      "etalon_status": "узкий"
+    },
+    {
+      "lvl1": "Безалкогольные напитки",
+      "GMV": 4066073610.257513,
+      "ml1_share": 0.034085900033096764,
+      "etalon_sum_new": 4.0,
+      "etalon_max_new": 4.0,
+      "etalon_15_new": 0.0,
+      "etalon_status": "узкий"
+    },
+    {
+      "lvl1": "Аптека",
+      "GMV": 2604942125.267791,
+      "ml1_share": 0.021837233012674647,
+      "etalon_sum_new": 66.0,
+      "etalon_max_new": 64.0,
+      "etalon_15_new": 2.0,
+      "etalon_status": "широкий"
+    },
+    {
+      "lvl1": "Праздничные товары",
+      "GMV": 2549255159.4197636,
+      "ml1_share": 0.021370409110064062,
+      "etalon_sum_new": NaN,
+      "etalon_max_new": NaN,
+      "etalon_15_new": NaN,
+      "etalon_status": "нет в NEW-эталоне"
+    },
+    {
+      "lvl1": "Свежие фрукты",
+      "GMV": 2390434247.3582172,
+      "ml1_share": 0.020039013210580513,
+      "etalon_sum_new": NaN,
+      "etalon_max_new": NaN,
+      "etalon_15_new": NaN,
+      "etalon_status": "нет в NEW-эталоне"
+    },
+    {
+      "lvl1": "Аксессуары",
+      "GMV": 2308554313.663707,
+      "ml1_share": 0.019352613626572264,
+      "etalon_sum_new": 44.0,
+      "etalon_max_new": 40.0,
+      "etalon_15_new": 4.0,
+      "etalon_status": "узкий"
+    },
+    {
+      "lvl1": "Рыбная гастрономия",
+      "GMV": 2299680275.4569955,
+      "ml1_share": 0.0192782225534641,
+      "etalon_sum_new": NaN,
+      "etalon_max_new": NaN,
+      "etalon_15_new": NaN,
+      "etalon_status": "нет в NEW-эталоне"
+    },
+    {
+      "lvl1": "Молочная продукция",
+      "GMV": 2127554941.9581454,
+      "ml1_share": 0.01783529567284777,
+      "etalon_sum_new": 0.0,
+      "etalon_max_new": 0.0,
+      "etalon_15_new": 0.0,
+      "etalon_status": "эталон = 0"
+    },
+    {
+      "lvl1": "Гигиена",
+      "GMV": 2125952155.6731403,
+      "ml1_share": 0.01782185951346608,
+      "etalon_sum_new": 150.0,
+      "etalon_max_new": 150.0,
+      "etalon_15_new": 0.0,
+      "etalon_status": "широкий"
+    },
+    {
+      "lvl1": "Уход",
+      "GMV": 1534098668.5537174,
+      "ml1_share": 0.012860351009217749,
+      "etalon_sum_new": 399.0,
+      "etalon_max_new": 316.0,
+      "etalon_15_new": 83.0,
+      "etalon_status": "широкий"
+    },
+    {
+      "lvl1": "Детская гигиена и уход",
+      "GMV": 1459212845.4399307,
+      "ml1_share": 0.012232583062736562,
+      "etalon_sum_new": 101.0,
+      "etalon_max_new": 101.0,
+      "etalon_15_new": 0.0,
+      "etalon_status": "широкий"
+    },
+    {
+      "lvl1": "Парфюмерия и декоративная косметика",
+      "GMV": 1381040196.4242013,
+      "ml1_share": 0.011577261650711324,
+      "etalon_sum_new": 187.0,
+      "etalon_max_new": 128.0,
+      "etalon_15_new": 59.0,
+      "etalon_status": "широкий"
+    },
+    {
+      "lvl1": "Спорт и активный отдых",
+      "GMV": 1351493904.7113357,
+      "ml1_share": 0.011329575051252622,
+      "etalon_sum_new": 29.0,
+      "etalon_max_new": 26.0,
+      "etalon_15_new": 3.0,
+      "etalon_status": "узкий"
+    },
+    {
+      "lvl1": "Бытовая химия",
+      "GMV": 1127441521.7780783,
+      "ml1_share": 0.009451343651906053,
+      "etalon_sum_new": 192.0,
+      "etalon_max_new": 189.0,
+      "etalon_15_new": 3.0,
+      "etalon_status": "широкий"
+    },
+    {
+      "lvl1": "Кондитерские изделия",
+      "GMV": 1016608766.8268075,
+      "ml1_share": 0.00852223253199633,
+      "etalon_sum_new": 25.0,
+      "etalon_max_new": 25.0,
+      "etalon_15_new": 0.0,
+      "etalon_status": "узкий"
+    },
+    {
+      "lvl1": "Консервированные продукты",
+      "GMV": 970222936.514813,
+      "ml1_share": 0.008133380059926424,
+      "etalon_sum_new": 5.0,
+      "etalon_max_new": 5.0,
+      "etalon_15_new": 0.0,
+      "etalon_status": "узкий"
+    },
+    {
+      "lvl1": "Сыры",
+      "GMV": 935629627.675957,
+      "ml1_share": 0.007843384309746041,
+      "etalon_sum_new": NaN,
+      "etalon_max_new": NaN,
+      "etalon_15_new": NaN,
+      "etalon_status": "нет в NEW-эталоне"
+    },
+    {
+      "lvl1": "Хлеб и хлебобулочные изделия",
+      "GMV": 850971593.2497716,
+      "ml1_share": 0.007133695903916451,
+      "etalon_sum_new": NaN,
+      "etalon_max_new": NaN,
+      "etalon_15_new": NaN,
+      "etalon_status": "нет в NEW-эталоне"
+    },
+    {
+      "lvl1": "Продукция для животных",
+      "GMV": 730232943.65035,
+      "ml1_share": 0.006121543657091696,
+      "etalon_sum_new": 114.0,
+      "etalon_max_new": 84.0,
+      "etalon_15_new": 30.0,
+      "etalon_status": "широкий"
+    },
+    {
+      "lvl1": "Алкоголь",
+      "GMV": 725111269.130642,
+      "ml1_share": 0.006078608653347441,
+      "etalon_sum_new": NaN,
+      "etalon_max_new": NaN,
+      "etalon_15_new": NaN,
+      "etalon_status": "нет в NEW-эталоне"
+    },
+    {
+      "lvl1": "Строительство и ремонт",
+      "GMV": 651922635.5856156,
+      "ml1_share": 0.005465068249090784,
+      "etalon_sum_new": 49.0,
+      "etalon_max_new": 49.0,
+      "etalon_15_new": 0.0,
+      "etalon_status": "узкий"
+    },
+    {
+      "lvl1": "Кофе, какао",
+      "GMV": 644397787.5583448,
+      "ml1_share": 0.005401987438902117,
+      "etalon_sum_new": 40.0,
+      "etalon_max_new": 40.0,
+      "etalon_15_new": 0.0,
+      "etalon_status": "узкий"
+    },
+    {
+      "lvl1": "Яичные товары",
+      "GMV": 513838491.7217532,
+      "ml1_share": 0.004307508702695537,
+      "etalon_sum_new": NaN,
+      "etalon_max_new": NaN,
+      "etalon_15_new": NaN,
+      "etalon_status": "нет в NEW-эталоне"
+    },
+    {
+      "lvl1": "Детское питание",
+      "GMV": 424409673.8810125,
+      "ml1_share": 0.003557826813684075,
+      "etalon_sum_new": 5.0,
+      "etalon_max_new": 5.0,
+      "etalon_15_new": 0.0,
+      "etalon_status": "узкий"
+    },
+    {
+      "lvl1": "Чай",
+      "GMV": 386685741.51866806,
+      "ml1_share": 0.0032415870426886996,
+      "etalon_sum_new": 1.0,
+      "etalon_max_new": 1.0,
+      "etalon_15_new": 0.0,
+      "etalon_status": "узкий"
+    },
+    {
+      "lvl1": "Товары для животных",
+      "GMV": 379367126.71973914,
+      "ml1_share": 0.0031802350859047113,
+      "etalon_sum_new": NaN,
+      "etalon_max_new": NaN,
+      "etalon_15_new": NaN,
+      "etalon_status": "нет в NEW-эталоне"
+    },
+    {
+      "lvl1": "Одежда",
+      "GMV": 310255103.34521645,
+      "ml1_share": 0.0026008689096785427,
+      "etalon_sum_new": 79.0,
+      "etalon_max_new": 54.0,
+      "etalon_15_new": 25.0,
+      "etalon_status": "широкий"
+    },
+    {
+      "lvl1": "Замороженные продукты",
+      "GMV": 285226022.23249435,
+      "ml1_share": 0.002391050092189283,
+      "etalon_sum_new": NaN,
+      "etalon_max_new": NaN,
+      "etalon_15_new": NaN,
+      "etalon_status": "нет в NEW-эталоне"
+    },
+    {
+      "lvl1": "Смартфоны и гаджеты",
+      "GMV": 147149456.68601418,
+      "ml1_share": 0.001233554074837894,
+      "etalon_sum_new": 120.0,
+      "etalon_max_new": 101.0,
+      "etalon_15_new": 19.0,
+      "etalon_status": "широкий"
+    },
+    {
+      "lvl1": "Компьютеры и аксессуары",
+      "GMV": 95110633.88035434,
+      "ml1_share": 0.0007973125598001424,
+      "etalon_sum_new": 82.0,
+      "etalon_max_new": 67.0,
+      "etalon_15_new": 15.0,
+      "etalon_status": "широкий"
+    },
+    {
+      "lvl1": "Автомобильные товары и запчасти",
+      "GMV": 49657457.22166986,
+      "ml1_share": 0.0004162785244432456,
+      "etalon_sum_new": 30.0,
+      "etalon_max_new": 27.0,
+      "etalon_15_new": 3.0,
+      "etalon_status": "узкий"
+    },
+    {
+      "lvl1": "Мороженое и десерты",
+      "GMV": 35579868.40264328,
+      "ml1_share": 0.0002982660802066566,
+      "etalon_sum_new": NaN,
+      "etalon_max_new": NaN,
+      "etalon_15_new": NaN,
+      "etalon_status": "нет в NEW-эталоне"
+    },
+    {
+      "lvl1": "Хозяйственные товары",
+      "GMV": 3187845.8519537523,
+      "ml1_share": 2.6723715664295632e-05,
+      "etalon_sum_new": NaN,
+      "etalon_max_new": NaN,
+      "etalon_15_new": NaN,
+      "etalon_status": "нет в NEW-эталоне"
+    },
+    {
+      "lvl1": "Супермаркет",
+      "GMV": 3187845.8519537523,
+      "ml1_share": 2.6723715664295632e-05,
+      "etalon_sum_new": NaN,
+      "etalon_max_new": NaN,
+      "etalon_15_new": NaN,
+      "etalon_status": "нет в NEW-эталоне"
+    }
+  ],
+  "mission_etalon_audit": [
+    {
+      "mega": "Готовлю дома",
+      "GMV": 39092732282.66326,
+      "mega_share": 0.32771442239656945,
+      "mcc_links": "Продуктовые магазины (primary)",
+      "etalon_note": "Продуктовые магазины: food ml1 rollup — широкий (185 SKU)",
+      "etalon_flag": "широкий",
+      "n_ml4": 321,
+      "n_ml4_mapped": 171,
+      "ml4_status": "ок"
+    },
+    {
+      "mega": "Гости и праздник",
+      "GMV": 27022104689.84949,
+      "mega_share": 0.22652633656667903,
+      "mcc_links": "Продуктовые магазины (primary)",
+      "etalon_note": "Продуктовые магазины: food ml1 rollup — широкий (185 SKU)",
+      "etalon_flag": "широкий",
+      "n_ml4": 287,
+      "n_ml4_mapped": 159,
+      "ml4_status": "ок"
+    },
+    {
+      "mega": "Дети",
+      "GMV": 10736636803.5717,
+      "mega_share": 0.09000523941696054,
+      "mcc_links": "Игрушки (primary); Одежда детская (primary)",
+      "etalon_note": "Игрушки: широкий (163 SKU) · Одежда детская: широкий (343 SKU)",
+      "etalon_flag": "широкий",
+      "n_ml4": 275,
+      "n_ml4_mapped": 224,
+      "ml4_status": "ок"
+    },
+    {
+      "mega": "Дача",
+      "GMV": 8736286937.506628,
+      "mega_share": 0.07323630405044258,
+      "mcc_links": "Продуктовые магазины (secondary); Товары для дома (secondary)",
+      "etalon_note": "Продуктовые магазины: food ml1 rollup — широкий (185 SKU) · Товары для дома: широкий (839 SKU)",
+      "etalon_flag": "широкий",
+      "n_ml4": 237,
+      "n_ml4_mapped": 188,
+      "ml4_status": "ок"
+    },
+    {
+      "mega": "Дом и быт",
+      "GMV": 7609901828.555469,
+      "mega_share": 0.06379381630855283,
+      "mcc_links": "Товары для дома (primary); Мебель (secondary)",
+      "etalon_note": "Товары для дома: широкий (839 SKU) · Мебель: узкий (37 SKU)",
+      "etalon_flag": "узкий",
+      "n_ml4": 179,
+      "n_ml4_mapped": 113,
+      "ml4_status": "ок"
+    },
+    {
+      "mega": "Пикник и отдых",
+      "GMV": 7259969418.278065,
+      "mega_share": 0.0608603324864779,
+      "mcc_links": "Продуктовые магазины (primary)",
+      "etalon_note": "Продуктовые магазины: food ml1 rollup — широкий (185 SKU)",
+      "etalon_flag": "широкий",
+      "n_ml4": 163,
+      "n_ml4_mapped": 117,
+      "ml4_status": "ок"
+    },
+    {
+      "mega": "Эмоции",
+      "GMV": 4518643287.135696,
+      "mega_share": 0.03787979218624539,
+      "mcc_links": "Продуктовые магазины (secondary); Косметика (secondary)",
+      "etalon_note": "Продуктовые магазины: food ml1 rollup — широкий (185 SKU) · Косметика: широкий (687 SKU)",
+      "etalon_flag": "широкий",
+      "n_ml4": 135,
+      "n_ml4_mapped": 127,
+      "ml4_status": "ок"
+    },
+    {
+      "mega": "Готовая еда",
+      "GMV": 3753776384.383088,
+      "mega_share": 0.031467912007765636,
+      "mcc_links": "Продуктовые магазины (primary)",
+      "etalon_note": "Продуктовые магазины: food ml1 rollup — широкий (185 SKU)",
+      "etalon_flag": "широкий",
+      "n_ml4": 0,
+      "n_ml4_mapped": 0,
+      "ml4_status": "состав ml4 пуст — кошелёк ml1 через MCC/bridge"
+    },
+    {
+      "mega": "Работа и учеба",
+      "GMV": 2784314682.588976,
+      "mega_share": 0.02334091337943112,
+      "mcc_links": "Канцтовары (primary); Книжные магазины (primary)",
+      "etalon_note": "Канцтовары: широкий (363 SKU) · Книжные магазины: широкий (363 SKU)",
+      "etalon_flag": "широкий",
+      "n_ml4": 122,
+      "n_ml4_mapped": 120,
+      "ml4_status": "ок"
+    },
+    {
+      "mega": "Здоровье",
+      "GMV": 1906907226.048205,
+      "mega_share": 0.015985605601309433,
+      "mcc_links": "Аптеки (primary)",
+      "etalon_note": "Аптеки: широкий (293 SKU)",
+      "etalon_flag": "широкий",
+      "n_ml4": 65,
+      "n_ml4_mapped": 56,
+      "ml4_status": "ок"
+    },
+    {
+      "mega": "Авто",
+      "GMV": 1773827562.140481,
+      "mega_share": 0.01486999861648913,
+      "mcc_links": "Автотовары (primary)",
+      "etalon_note": "Автотовары: узкий (30 SKU)",
+      "etalon_flag": "узкий",
+      "n_ml4": 10,
+      "n_ml4_mapped": 0,
+      "ml4_status": "ml4 есть, но 0 сматчено с ml1 (имена)"
+    },
+    {
+      "mega": "Малыши",
+      "GMV": 1004344923.774625,
+      "mega_share": 0.008419424720734937,
+      "mcc_links": "Игрушки (secondary); Одежда детская (secondary); Аптеки (secondary)",
+      "etalon_note": "Игрушки: широкий (163 SKU) · Одежда детская: широкий (343 SKU) · Аптеки: широкий (293 SKU)",
+      "etalon_flag": "широкий",
+      "n_ml4": 40,
+      "n_ml4_mapped": 40,
+      "ml4_status": "ок"
+    },
+    {
+      "mega": "Гостиная",
+      "GMV": 949188582.7193649,
+      "mega_share": 0.00795704904640918,
+      "mcc_links": "Бытовая техника и электроника (primary); Товары для дома (primary); Мебель (secondary)",
+      "etalon_note": "Бытовая техника и электроника: широкий (436 SKU) · Товары для дома: широкий (839 SKU) · Мебель: узкий (37 SKU)",
+      "etalon_flag": "узкий",
+      "n_ml4": 0,
+      "n_ml4_mapped": 0,
+      "ml4_status": "состав ml4 пуст — кошелёк ml1 через MCC/bridge"
+    },
+    {
+      "mega": "Питомцы",
+      "GMV": 461191408.9534088,
+      "mega_share": 0.003866168143648868,
+      "mcc_links": "Зоомагазины (primary)",
+      "etalon_note": "Зоомагазины: широкий (114 SKU)",
+      "etalon_flag": "широкий",
+      "n_ml4": 62,
+      "n_ml4_mapped": 62,
+      "ml4_status": "ок"
+    },
+    {
+      "mega": "Подарки",
+      "GMV": 457463422.4442331,
+      "mega_share": 0.0038349164281964157,
+      "mcc_links": "Маркетплейсы (channel); Игрушки (secondary); Косметика (secondary)",
+      "etalon_note": "Маркетплейсы: эталон н/п (канал) · Игрушки: широкий (163 SKU) · Косметика: широкий (687 SKU)",
+      "etalon_flag": "канал н/п",
+      "n_ml4": 77,
+      "n_ml4_mapped": 77,
+      "ml4_status": "ок"
+    },
+    {
+      "mega": "Красота",
+      "GMV": 345968315.6787922,
+      "mega_share": 0.0029002528122208104,
+      "mcc_links": "Косметика (primary)",
+      "etalon_note": "Косметика: широкий (687 SKU)",
+      "etalon_flag": "широкий",
+      "n_ml4": 103,
+      "n_ml4_mapped": 103,
+      "ml4_status": "ок"
+    },
+    {
+      "mega": "Кухня",
+      "GMV": 324930627.0384422,
+      "mega_share": 0.0027238938426946855,
+      "mcc_links": "Товары для дома (primary); Бытовая техника и электроника (secondary); Мебель (secondary)",
+      "etalon_note": "Товары для дома: широкий (839 SKU) · Бытовая техника и электроника: широкий (436 SKU) · Мебель: узкий (37 SKU)",
+      "etalon_flag": "узкий",
+      "n_ml4": 1,
+      "n_ml4_mapped": 1,
+      "ml4_status": "ок"
+    },
+    {
+      "mega": "Срочно нужно сейчас",
+      "GMV": 207209980.3769939,
+      "mega_share": 0.001737041518179216,
+      "mcc_links": "Продуктовые магазины (secondary); Аптеки (secondary)",
+      "etalon_note": "Продуктовые магазины: food ml1 rollup — широкий (185 SKU) · Аптеки: широкий (293 SKU)",
+      "etalon_flag": "широкий",
+      "n_ml4": 65,
+      "n_ml4_mapped": 65,
+      "ml4_status": "ок"
+    },
+    {
+      "mega": "Стирка",
+      "GMV": 162215127.8889233,
+      "mega_share": 0.0013598496149034712,
+      "mcc_links": "Товары для дома (primary)",
+      "etalon_note": "Товары для дома: широкий (839 SKU)",
+      "etalon_flag": "широкий",
+      "n_ml4": 27,
+      "n_ml4_mapped": 27,
+      "ml4_status": "ок"
+    },
+    {
+      "mega": "Гардероб",
+      "GMV": 113673306.875,
+      "mega_share": 0.0009529234701502099,
+      "mcc_links": "Одежда для взрослых (primary); Обувь (secondary)",
+      "etalon_note": "Одежда для взрослых: широкий (123 SKU) · Обувь: узкий (15 SKU)",
+      "etalon_flag": "узкий",
+      "n_ml4": 0,
+      "n_ml4_mapped": 0,
+      "ml4_status": "состав ml4 пуст — кошелёк ml1 через MCC/bridge"
+    },
+    {
+      "mega": "Ванная",
+      "GMV": 54567803.00928704,
+      "mega_share": 0.0004574419591686825,
+      "mcc_links": "Товары для дома (primary); Косметика (secondary); Бытовая техника и электроника (secondary)",
+      "etalon_note": "Товары для дома: широкий (839 SKU) · Косметика: широкий (687 SKU) · Бытовая техника и электроника: широкий (436 SKU)",
+      "etalon_flag": "широкий",
+      "n_ml4": 0,
+      "n_ml4_mapped": 0,
+      "ml4_status": "состав ml4 пуст — кошелёк ml1 через MCC/bridge"
+    },
+    {
+      "mega": "Детская",
+      "GMV": 6325772.361747114,
+      "mega_share": 5.302895742238737e-05,
+      "mcc_links": "Игрушки (primary); Товары для дома (secondary); Мебель (secondary)",
+      "etalon_note": "Игрушки: широкий (163 SKU) · Товары для дома: широкий (839 SKU) · Мебель: узкий (37 SKU)",
+      "etalon_flag": "узкий",
+      "n_ml4": 0,
+      "n_ml4_mapped": 0,
+      "ml4_status": "состав ml4 пуст — кошелёк ml1 через MCC/bridge"
+    },
+    {
+      "mega": "Спорт",
+      "GMV": 2461326.99875,
+      "mega_share": 2.063330723194685e-05,
+      "mcc_links": "Спортивные товары (primary)",
+      "etalon_note": "Спортивные товары: узкий (29 SKU)",
+      "etalon_flag": "узкий",
+      "n_ml4": 0,
+      "n_ml4_mapped": 0,
+      "ml4_status": "состав ml4 пуст — кошелёк ml1 через MCC/bridge"
+    },
+    {
+      "mega": "Спальня",
+      "GMV": 2455377.43155368,
+      "mega_share": 2.0583432002885e-05,
+      "mcc_links": "Товары для дома (primary); Мебель (primary)",
+      "etalon_note": "Товары для дома: широкий (839 SKU) · Мебель: узкий (37 SKU)",
+      "etalon_flag": "узкий",
+      "n_ml4": 0,
+      "n_ml4_mapped": 0,
+      "ml4_status": "состав ml4 пуст — кошелёк ml1 через MCC/bridge"
+    },
+    {
+      "mega": "Прихожая",
+      "GMV": 1246535.17,
+      "mega_share": 1.0449705850177253e-05,
+      "mcc_links": "Товары для дома (primary)",
+      "etalon_note": "Товары для дома: широкий (839 SKU)",
+      "etalon_flag": "широкий",
+      "n_ml4": 0,
+      "n_ml4_mapped": 0,
+      "ml4_status": "состав ml4 пуст — кошелёк ml1 через MCC/bridge"
+    },
+    {
+      "mega": "Домашний офис",
+      "GMV": 676371.6376378344,
+      "mega_share": 5.670024263108476e-06,
+      "mcc_links": "Бытовая техника и электроника (primary); Мебель (secondary); Товары для дома (secondary)",
+      "etalon_note": "Бытовая техника и электроника: широкий (436 SKU) · Мебель: узкий (37 SKU) · Товары для дома: широкий (839 SKU)",
+      "etalon_flag": "узкий",
+      "n_ml4": 0,
+      "n_ml4_mapped": 0,
+      "ml4_status": "состав ml4 пуст — кошелёк ml1 через MCC/bridge"
+    }
+  ],
+  "scenario_bridge": [
+    {
+      "mega": "Готовлю дома",
+      "mcc_group": "Продуктовые магазины",
+      "weight": 1.0,
+      "role": "primary",
+      "notes": NaN
+    },
+    {
+      "mega": "Гости и праздник",
+      "mcc_group": "Продуктовые магазины",
+      "weight": 1.0,
+      "role": "primary",
+      "notes": NaN
+    },
+    {
+      "mega": "Пикник и отдых",
+      "mcc_group": "Продуктовые магазины",
+      "weight": 0.8,
+      "role": "primary",
+      "notes": NaN
+    },
+    {
+      "mega": "Готовая еда",
+      "mcc_group": "Продуктовые магазины",
+      "weight": 1.0,
+      "role": "primary",
+      "notes": NaN
+    },
+    {
+      "mega": "Дача",
+      "mcc_group": "Продуктовые магазины",
+      "weight": 0.5,
+      "role": "secondary",
+      "notes": NaN
+    },
+    {
+      "mega": "Дача",
+      "mcc_group": "Товары для дома",
+      "weight": 0.4,
+      "role": "secondary",
+      "notes": NaN
+    },
+    {
+      "mega": "Дети",
+      "mcc_group": "Игрушки",
+      "weight": 0.5,
+      "role": "primary",
+      "notes": NaN
+    },
+    {
+      "mega": "Дети",
+      "mcc_group": "Одежда детская",
+      "weight": 0.4,
+      "role": "primary",
+      "notes": NaN
+    },
+    {
+      "mega": "Малыши",
+      "mcc_group": "Игрушки",
+      "weight": 0.3,
+      "role": "secondary",
+      "notes": NaN
+    },
+    {
+      "mega": "Малыши",
+      "mcc_group": "Одежда детская",
+      "weight": 0.3,
+      "role": "secondary",
+      "notes": NaN
+    },
+    {
+      "mega": "Малыши",
+      "mcc_group": "Аптеки",
+      "weight": 0.2,
+      "role": "secondary",
+      "notes": NaN
+    },
+    {
+      "mega": "Питомцы",
+      "mcc_group": "Зоомагазины",
+      "weight": 1.0,
+      "role": "primary",
+      "notes": NaN
+    },
+    {
+      "mega": "Красота",
+      "mcc_group": "Косметика",
+      "weight": 1.0,
+      "role": "primary",
+      "notes": NaN
+    },
+    {
+      "mega": "Здоровье",
+      "mcc_group": "Аптеки",
+      "weight": 1.0,
+      "role": "primary",
+      "notes": NaN
+    },
+    {
+      "mega": "Дом и быт",
+      "mcc_group": "Товары для дома",
+      "weight": 0.7,
+      "role": "primary",
+      "notes": NaN
+    },
+    {
+      "mega": "Дом и быт",
+      "mcc_group": "Мебель",
+      "weight": 0.3,
+      "role": "secondary",
+      "notes": NaN
+    },
+    {
+      "mega": "Гостиная",
+      "mcc_group": "Бытовая техника и электроника",
+      "weight": 0.5,
+      "role": "primary",
+      "notes": "ТВ/саундбар/наушники: «Домашний кинотеатр» ≈93% GMV меги"
+    },
+    {
+      "mega": "Гостиная",
+      "mcc_group": "Товары для дома",
+      "weight": 0.3,
+      "role": "primary",
+      "notes": "декор/атмосфера"
+    },
+    {
+      "mega": "Гостиная",
+      "mcc_group": "Мебель",
+      "weight": 0.2,
+      "role": "secondary",
+      "notes": NaN
+    },
+    {
+      "mega": "Кухня",
+      "mcc_group": "Товары для дома",
+      "weight": 0.5,
+      "role": "primary",
+      "notes": "посуда+расходники (вторая сцена)"
+    },
+    {
+      "mega": "Кухня",
+      "mcc_group": "Бытовая техника и электроника",
+      "weight": 0.3,
+      "role": "secondary",
+      "notes": "крупная техника в «Обустройство кухни с нуля» (~42% GMV меги)"
+    },
+    {
+      "mega": "Кухня",
+      "mcc_group": "Мебель",
+      "weight": 0.2,
+      "role": "secondary",
+      "notes": NaN
+    },
+    {
+      "mega": "Ванная",
+      "mcc_group": "Товары для дома",
+      "weight": 0.45,
+      "role": "primary",
+      "notes": NaN
+    },
+    {
+      "mega": "Ванная",
+      "mcc_group": "Косметика",
+      "weight": 0.3,
+      "role": "secondary",
+      "notes": NaN
+    },
+    {
+      "mega": "Ванная",
+      "mcc_group": "Бытовая техника и электроника",
+      "weight": 0.15,
+      "role": "secondary",
+      "notes": "стиралка/водонагреватель в обустройстве с нуля"
+    },
+    {
+      "mega": "Спальня",
+      "mcc_group": "Товары для дома",
+      "weight": 0.4,
+      "role": "primary",
+      "notes": NaN
+    },
+    {
+      "mega": "Спальня",
+      "mcc_group": "Мебель",
+      "weight": 0.4,
+      "role": "primary",
+      "notes": NaN
+    },
+    {
+      "mega": "Детская",
+      "mcc_group": "Игрушки",
+      "weight": 0.4,
+      "role": "primary",
+      "notes": NaN
+    },
+    {
+      "mega": "Детская",
+      "mcc_group": "Товары для дома",
+      "weight": 0.3,
+      "role": "secondary",
+      "notes": NaN
+    },
+    {
+      "mega": "Детская",
+      "mcc_group": "Мебель",
+      "weight": 0.3,
+      "role": "secondary",
+      "notes": NaN
+    },
+    {
+      "mega": "Прихожая",
+      "mcc_group": "Товары для дома",
+      "weight": 0.6,
+      "role": "primary",
+      "notes": NaN
+    },
+    {
+      "mega": "Домашний офис",
+      "mcc_group": "Бытовая техника и электроника",
+      "weight": 0.5,
+      "role": "primary",
+      "notes": "мониторы/ПК/периферия — ядро сценария"
+    },
+    {
+      "mega": "Домашний офис",
+      "mcc_group": "Мебель",
+      "weight": 0.3,
+      "role": "secondary",
+      "notes": "стол/кресло"
+    },
+    {
+      "mega": "Домашний офис",
+      "mcc_group": "Товары для дома",
+      "weight": 0.2,
+      "role": "secondary",
+      "notes": "органайзеры/канцелярия"
+    },
+    {
+      "mega": "Авто",
+      "mcc_group": "Автотовары",
+      "weight": 1.0,
+      "role": "primary",
+      "notes": NaN
+    },
+    {
+      "mega": "Спорт",
+      "mcc_group": "Спортивные товары",
+      "weight": 1.0,
+      "role": "primary",
+      "notes": NaN
+    },
+    {
+      "mega": "Гардероб",
+      "mcc_group": "Одежда для взрослых",
+      "weight": 0.7,
+      "role": "primary",
+      "notes": NaN
+    },
+    {
+      "mega": "Гардероб",
+      "mcc_group": "Обувь",
+      "weight": 0.3,
+      "role": "secondary",
+      "notes": NaN
+    },
+    {
+      "mega": "Подарки",
+      "mcc_group": "Маркетплейсы",
+      "weight": 0.4,
+      "role": "channel",
+      "notes": NaN
+    },
+    {
+      "mega": "Подарки",
+      "mcc_group": "Игрушки",
+      "weight": 0.3,
+      "role": "secondary",
+      "notes": NaN
+    },
+    {
+      "mega": "Подарки",
+      "mcc_group": "Косметика",
+      "weight": 0.3,
+      "role": "secondary",
+      "notes": NaN
+    },
+    {
+      "mega": "Эмоции",
+      "mcc_group": "Продуктовые магазины",
+      "weight": 0.5,
+      "role": "secondary",
+      "notes": NaN
+    },
+    {
+      "mega": "Эмоции",
+      "mcc_group": "Косметика",
+      "weight": 0.3,
+      "role": "secondary",
+      "notes": NaN
+    },
+    {
+      "mega": "Работа и учеба",
+      "mcc_group": "Канцтовары",
+      "weight": 0.5,
+      "role": "primary",
+      "notes": NaN
+    },
+    {
+      "mega": "Работа и учеба",
+      "mcc_group": "Книжные магазины",
+      "weight": 0.5,
+      "role": "primary",
+      "notes": NaN
+    },
+    {
+      "mega": "Стирка",
+      "mcc_group": "Товары для дома",
+      "weight": 0.8,
+      "role": "primary",
+      "notes": "химия/уход — не техника"
+    },
+    {
+      "mega": "Срочно нужно сейчас",
+      "mcc_group": "Продуктовые магазины",
+      "weight": 0.5,
+      "role": "secondary",
+      "notes": NaN
+    },
+    {
+      "mega": "Срочно нужно сейчас",
+      "mcc_group": "Аптеки",
+      "weight": 0.3,
+      "role": "secondary",
+      "notes": NaN
+    }
+  ],
+  "spravka": [
+    {
+      "раздел": "метод",
+      "ключ": "gap_definition",
+      "значение": "Gap = доля MCC в полном кошельке Сбера (gmv / ∑ gmv по MCC города) минус доля MCC после аллокации mega GMV через soft-bridge. Дополнительно: gap_pp_vs_smkt_aud — то же vs кошелька аудитории Самоката (smkt_gmv).",
+      "комментарий": "Положительный gap = недобор Самоката vs Сбер"
+    },
+    {
+      "раздел": "метод",
+      "ключ": "sber_wallets",
+      "значение": "В prefs два кошелька: gmv = клиенты Сбера в срезе; smkt_gmv = подмножество «самокатовцы». Исследование — про полный кошелёк.",
+      "комментарий": ""
+    },
+    {
+      "раздел": "метод",
+      "ключ": "ml1_wallet",
+      "значение": "Кошелёк ml1: GMV мега делится поровну по сматченным ml4→ml1 (Список МЛ + эталоны). Мега без ml4 / без матча — residual-строки.",
+      "комментарий": ""
+    },
+    {
+      "раздел": "метод",
+      "ключ": "etalon",
+      "значение": "NEW-колонки QNF; specialty MCC через mcc_l1_crosswalk; grocery MCC = rollup food lvl1 (FOODZOO / FMCG, минус specialty); канал н/п; узкий < 50 SKU",
+      "комментарий": "Маркетплейсы на MCC: н/п; grocery — food ml1 из эталонов"
+    },
+    {
+      "раздел": "метод",
+      "ключ": "city",
+      "значение": "Москва",
+      "комментарий": ""
+    },
+    {
+      "раздел": "метод",
+      "ключ": "scenarios_period",
+      "значение": "н/д",
+      "комментарий": ""
+    },
+    {
+      "раздел": "источники",
+      "ключ": "prefs",
+      "значение": "/Users/hq-fvfgr2vpq05p/Downloads/Анализ предпочтений основной аудитории Самоката (1).xlsx",
+      "комментарий": ""
+    },
+    {
+      "раздел": "источники",
+      "ключ": "scenarios",
+      "значение": "/Users/hq-fvfgr2vpq05p/trash/outputs/all_extend_da_rooms/scenarios_gmv_report.xlsx",
+      "комментарий": ""
+    },
+    {
+      "раздел": "источники",
+      "ключ": "etalons",
+      "значение": "/Users/hq-fvfgr2vpq05p/trash/consumption_map/inputs/etalons_qnf.xlsx",
+      "комментарий": ""
+    },
+    {
+      "раздел": "источники",
+      "ключ": "scenario_bridge",
+      "значение": "/Users/hq-fvfgr2vpq05p/trash/consumption_map/inputs/scenario_mcc_bridge.csv",
+      "комментарий": ""
+    },
+    {
+      "раздел": "источники",
+      "ключ": "crosswalk",
+      "значение": "/Users/hq-fvfgr2vpq05p/trash/consumption_map/inputs/mcc_l1_crosswalk.csv",
+      "комментарий": ""
+    },
+    {
+      "раздел": "источники",
+      "ключ": "descriptions",
+      "значение": "/Users/hq-fvfgr2vpq05p/trash/consumption_map/inputs/scenarios_descriptions_rooms.xlsx",
+      "комментарий": ""
+    },
+    {
+      "раздел": "sber_full_wallet",
+      "ключ": "Продуктовые магазины",
+      "значение": "42.40%",
+      "комментарий": "gmv=430539581733"
+    },
+    {
+      "раздел": "sber_full_wallet",
+      "ключ": "Маркетплейсы",
+      "значение": "29.61%",
+      "комментарий": "gmv=300593667547"
+    },
+    {
+      "раздел": "sber_full_wallet",
+      "ключ": "Товары для дома",
+      "значение": "5.88%",
+      "комментарий": "gmv=59734207287"
+    },
+    {
+      "раздел": "sber_full_wallet",
+      "ключ": "Аптеки",
+      "значение": "5.28%",
+      "комментарий": "gmv=53586197316"
+    },
+    {
+      "раздел": "sber_full_wallet",
+      "ключ": "Бытовая техника и электроника",
+      "значение": "4.67%",
+      "комментарий": "gmv=47399815640"
+    },
+    {
+      "раздел": "sber_full_wallet",
+      "ключ": "Одежда для взрослых",
+      "значение": "2.69%",
+      "комментарий": "gmv=27261476911"
+    },
+    {
+      "раздел": "sber_full_wallet",
+      "ключ": "Косметика",
+      "значение": "2.40%",
+      "комментарий": "gmv=24362274526"
+    },
+    {
+      "раздел": "sber_full_wallet",
+      "ключ": "Мебель",
+      "значение": "1.36%",
+      "комментарий": "gmv=13818056107"
+    },
+    {
+      "раздел": "sber_full_wallet",
+      "ключ": "Игрушки",
+      "значение": "1.17%",
+      "комментарий": "gmv=11862129368"
+    },
+    {
+      "раздел": "sber_full_wallet",
+      "ключ": "Зоомагазины",
+      "значение": "1.10%",
+      "комментарий": "gmv=11195755724"
+    },
+    {
+      "раздел": "sber_full_wallet",
+      "ключ": "Автотовары",
+      "значение": "1.05%",
+      "комментарий": "gmv=10650550083"
+    },
+    {
+      "раздел": "sber_full_wallet",
+      "ключ": "Обувь",
+      "значение": "1.01%",
+      "комментарий": "gmv=10219075085"
+    },
+    {
+      "раздел": "sber_full_wallet",
+      "ключ": "Одежда детская",
+      "значение": "0.68%",
+      "комментарий": "gmv=6888290274"
+    },
+    {
+      "раздел": "sber_full_wallet",
+      "ключ": "Книжные магазины",
+      "значение": "0.44%",
+      "комментарий": "gmv=4451922502"
+    },
+    {
+      "раздел": "sber_full_wallet",
+      "ключ": "Спортивные товары",
+      "значение": "0.20%",
+      "комментарий": "gmv=2055126556"
+    },
+    {
+      "раздел": "sber_full_wallet",
+      "ключ": "Канцтовары",
+      "значение": "0.07%",
+      "комментарий": "gmv=696826658"
+    },
+    {
+      "раздел": "samokat_mega",
+      "ключ": "Готовлю дома",
+      "значение": "32.77%",
+      "комментарий": "GMV=39092732283"
+    },
+    {
+      "раздел": "samokat_mega",
+      "ключ": "Гости и праздник",
+      "значение": "22.65%",
+      "комментарий": "GMV=27022104690"
+    },
+    {
+      "раздел": "samokat_mega",
+      "ключ": "Дети",
+      "значение": "9.00%",
+      "комментарий": "GMV=10736636804"
+    },
+    {
+      "раздел": "samokat_mega",
+      "ключ": "Дача",
+      "значение": "7.32%",
+      "комментарий": "GMV=8736286938"
+    },
+    {
+      "раздел": "samokat_mega",
+      "ключ": "Дом и быт",
+      "значение": "6.38%",
+      "комментарий": "GMV=7609901829"
+    },
+    {
+      "раздел": "samokat_mega",
+      "ключ": "Пикник и отдых",
+      "значение": "6.09%",
+      "комментарий": "GMV=7259969418"
+    },
+    {
+      "раздел": "samokat_mega",
+      "ключ": "Эмоции",
+      "значение": "3.79%",
+      "комментарий": "GMV=4518643287"
+    },
+    {
+      "раздел": "samokat_mega",
+      "ключ": "Готовая еда",
+      "значение": "3.15%",
+      "комментарий": "GMV=3753776384"
+    },
+    {
+      "раздел": "samokat_mega",
+      "ключ": "Работа и учеба",
+      "значение": "2.33%",
+      "комментарий": "GMV=2784314683"
+    },
+    {
+      "раздел": "samokat_mega",
+      "ключ": "Здоровье",
+      "значение": "1.60%",
+      "комментарий": "GMV=1906907226"
+    },
+    {
+      "раздел": "samokat_mega",
+      "ключ": "Авто",
+      "значение": "1.49%",
+      "комментарий": "GMV=1773827562"
+    },
+    {
+      "раздел": "samokat_mega",
+      "ключ": "Малыши",
+      "значение": "0.84%",
+      "комментарий": "GMV=1004344924"
+    },
+    {
+      "раздел": "samokat_mega",
+      "ключ": "Гостиная",
+      "значение": "0.80%",
+      "комментарий": "GMV=949188583"
+    },
+    {
+      "раздел": "samokat_mega",
+      "ключ": "Питомцы",
+      "значение": "0.39%",
+      "комментарий": "GMV=461191409"
+    },
+    {
+      "раздел": "samokat_mega",
+      "ключ": "Подарки",
+      "значение": "0.38%",
+      "комментарий": "GMV=457463422"
+    },
+    {
+      "раздел": "samokat_mega",
+      "ключ": "Красота",
+      "значение": "0.29%",
+      "комментарий": "GMV=345968316"
+    },
+    {
+      "раздел": "samokat_mega",
+      "ключ": "Кухня",
+      "значение": "0.27%",
+      "комментарий": "GMV=324930627"
+    },
+    {
+      "раздел": "samokat_mega",
+      "ключ": "Срочно нужно сейчас",
+      "значение": "0.17%",
+      "комментарий": "GMV=207209980"
+    },
+    {
+      "раздел": "samokat_mega",
+      "ключ": "Стирка",
+      "значение": "0.14%",
+      "комментарий": "GMV=162215128"
+    },
+    {
+      "раздел": "samokat_mega",
+      "ключ": "Гардероб",
+      "значение": "0.10%",
+      "комментарий": "GMV=113673307"
+    },
+    {
+      "раздел": "samokat_mega",
+      "ключ": "Ванная",
+      "значение": "0.05%",
+      "комментарий": "GMV=54567803"
+    },
+    {
+      "раздел": "samokat_mega",
+      "ключ": "Детская",
+      "значение": "0.01%",
+      "комментарий": "GMV=6325772"
+    },
+    {
+      "раздел": "samokat_mega",
+      "ключ": "Спорт",
+      "значение": "0.00%",
+      "комментарий": "GMV=2461327"
+    },
+    {
+      "раздел": "samokat_mega",
+      "ключ": "Спальня",
+      "значение": "0.00%",
+      "комментарий": "GMV=2455377"
+    },
+    {
+      "раздел": "samokat_mega",
+      "ключ": "Прихожая",
+      "значение": "0.00%",
+      "комментарий": "GMV=1246535"
+    },
+    {
+      "раздел": "samokat_mega",
+      "ключ": "Домашний офис",
+      "значение": "0.00%",
+      "комментарий": "GMV=676372"
+    },
+    {
+      "раздел": "top_gaps",
+      "ключ": "#1 Маркетплейсы",
+      "значение": "+29.45 п.п.",
+      "комментарий": "Канал (маркетплейсы) силён в Сбере, слабо в сценариях — не эталон, а ось Where."
+    },
+    {
+      "раздел": "top_gaps",
+      "ключ": "#2 Бытовая техника и электроника",
+      "значение": "+4.18 п.п.",
+      "комментарий": "Недобор 4.2 п.п.; NEW-эталон уже широкий (436 SKU) → причина не в узком эталоне (миссии / спрос / канал)."
+    },
+    {
+      "раздел": "top_gaps",
+      "ключ": "#3 Аптеки",
+      "значение": "+3.40 п.п.",
+      "комментарий": "Недобор 3.4 п.п.; NEW-эталон уже широкий (293 SKU) → причина не в узком эталоне (миссии / спрос / канал)."
+    },
+    {
+      "раздел": "top_gaps",
+      "ключ": "#4 Одежда для взрослых",
+      "значение": "+2.62 п.п.",
+      "комментарий": "Недобор 2.6 п.п.; NEW-эталон уже широкий (123 SKU) → причина не в узком эталоне (миссии / спрос / канал)."
+    },
+    {
+      "раздел": "top_gaps",
+      "ключ": "#5 Обувь",
+      "значение": "+0.98 п.п.",
+      "комментарий": "Доли сопоставимы; NEW-эталон 15 SKU."
+    },
+    {
+      "раздел": "etalon_audit",
+      "ключ": "Дом и быт",
+      "значение": "узкий",
+      "комментарий": "Товары для дома: широкий (839 SKU) · Мебель: узкий (37 SKU) | ml4: ок"
+    },
+    {
+      "раздел": "etalon_audit",
+      "ключ": "Готовая еда",
+      "значение": "широкий",
+      "комментарий": "Продуктовые магазины: food ml1 rollup — широкий (185 SKU) | ml4: состав ml4 пуст — кошелёк ml1 через MCC/bridge"
+    },
+    {
+      "раздел": "etalon_audit",
+      "ключ": "Авто",
+      "значение": "узкий",
+      "комментарий": "Автотовары: узкий (30 SKU) | ml4: ml4 есть, но 0 сматчено с ml1 (имена)"
+    },
+    {
+      "раздел": "etalon_audit",
+      "ключ": "Гостиная",
+      "значение": "узкий",
+      "комментарий": "Бытовая техника и электроника: широкий (436 SKU) · Товары для дома: широкий (839 SKU) · Мебель: узкий (37 SKU) | ml4: состав ml4 пуст — кошелёк ml1 через MCC/bridge"
+    },
+    {
+      "раздел": "etalon_audit",
+      "ключ": "Кухня",
+      "значение": "узкий",
+      "комментарий": "Товары для дома: широкий (839 SKU) · Бытовая техника и электроника: широкий (436 SKU) · Мебель: узкий (37 SKU) | ml4: ок"
+    },
+    {
+      "раздел": "etalon_audit",
+      "ключ": "Гардероб",
+      "значение": "узкий",
+      "комментарий": "Одежда для взрослых: широкий (123 SKU) · Обувь: узкий (15 SKU) | ml4: состав ml4 пуст — кошелёк ml1 через MCC/bridge"
+    },
+    {
+      "раздел": "etalon_audit",
+      "ключ": "Ванная",
+      "значение": "широкий",
+      "комментарий": "Товары для дома: широкий (839 SKU) · Косметика: широкий (687 SKU) · Бытовая техника и электроника: широкий (436 SKU) | ml4: состав ml4 пуст — кошелёк ml1 через MCC/bridge"
+    },
+    {
+      "раздел": "etalon_audit",
+      "ключ": "Детская",
+      "значение": "узкий",
+      "комментарий": "Игрушки: широкий (163 SKU) · Товары для дома: широкий (839 SKU) · Мебель: узкий (37 SKU) | ml4: состав ml4 пуст — кошелёк ml1 через MCC/bridge"
+    },
+    {
+      "раздел": "etalon_audit",
+      "ключ": "Спорт",
+      "значение": "узкий",
+      "комментарий": "Спортивные товары: узкий (29 SKU) | ml4: состав ml4 пуст — кошелёк ml1 через MCC/bridge"
+    },
+    {
+      "раздел": "etalon_audit",
+      "ключ": "Спальня",
+      "значение": "узкий",
+      "комментарий": "Товары для дома: широкий (839 SKU) · Мебель: узкий (37 SKU) | ml4: состав ml4 пуст — кошелёк ml1 через MCC/bridge"
+    },
+    {
+      "раздел": "etalon_audit",
+      "ключ": "Прихожая",
+      "значение": "широкий",
+      "комментарий": "Товары для дома: широкий (839 SKU) | ml4: состав ml4 пуст — кошелёк ml1 через MCC/bridge"
+    },
+    {
+      "раздел": "etalon_audit",
+      "ключ": "Домашний офис",
+      "значение": "узкий",
+      "комментарий": "Бытовая техника и электроника: широкий (436 SKU) · Мебель: узкий (37 SKU) · Товары для дома: широкий (839 SKU) | ml4: состав ml4 пуст — кошелёк ml1 через MCC/bridge"
+    }
+  ]
+}
